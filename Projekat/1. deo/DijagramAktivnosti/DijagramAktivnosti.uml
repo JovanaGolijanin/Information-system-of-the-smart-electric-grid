@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_8SL2EKo9Eey4SrfOF3FWAg" name="DijagramAktivnosti">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_8S8EAKo9Eey4SrfOF3FWAg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_8Sdi4Ko9Eey4SrfOF3FWAg" name="Plaćanje" node="_Iz31AKo-Eey4SrfOF3FWAg _ubYo4Ko-Eey4SrfOF3FWAg _LYsFsKo_Eey4SrfOF3FWAg _QQ9cMKo_Eey4SrfOF3FWAg __QE4oKo_Eey4SrfOF3FWAg _Mret0KpAEey4SrfOF3FWAg _bqcngKpAEey4SrfOF3FWAg _cJzdAKpAEey4SrfOF3FWAg _0XQfgKpAEey4SrfOF3FWAg _ISMj8KpBEey4SrfOF3FWAg _RzjlcKpBEey4SrfOF3FWAg _euHXYKpBEey4SrfOF3FWAg _tGFigKpBEey4SrfOF3FWAg">
+    <edge xmi:type="uml:ControlFlow" xmi:id="_7AsjkKo-Eey4SrfOF3FWAg" target="_ubYo4Ko-Eey4SrfOF3FWAg" source="_Iz31AKo-Eey4SrfOF3FWAg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Z88ZUKo_Eey4SrfOF3FWAg" target="_QQ9cMKo_Eey4SrfOF3FWAg" source="_ubYo4Ko-Eey4SrfOF3FWAg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_cBXvMKo_Eey4SrfOF3FWAg" target="_LYsFsKo_Eey4SrfOF3FWAg" source="_ubYo4Ko-Eey4SrfOF3FWAg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_T80NcKpAEey4SrfOF3FWAg" target="__QE4oKo_Eey4SrfOF3FWAg" source="_QQ9cMKo_Eey4SrfOF3FWAg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_U8wngKpAEey4SrfOF3FWAg" target="_Mret0KpAEey4SrfOF3FWAg" source="__QE4oKo_Eey4SrfOF3FWAg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_86z08KpAEey4SrfOF3FWAg" target="_0XQfgKpAEey4SrfOF3FWAg" source="_LYsFsKo_Eey4SrfOF3FWAg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_98q6kKpAEey4SrfOF3FWAg" target="_bqcngKpAEey4SrfOF3FWAg" source="_0XQfgKpAEey4SrfOF3FWAg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_-vk-MKpAEey4SrfOF3FWAg" target="_cJzdAKpAEey4SrfOF3FWAg" source="_0XQfgKpAEey4SrfOF3FWAg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_JzR8MKpBEey4SrfOF3FWAg" target="_ISMj8KpBEey4SrfOF3FWAg" source="_cJzdAKpAEey4SrfOF3FWAg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Kt5KUKpBEey4SrfOF3FWAg" target="_ISMj8KpBEey4SrfOF3FWAg" source="_bqcngKpAEey4SrfOF3FWAg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_ZST2AKpBEey4SrfOF3FWAg" target="_RzjlcKpBEey4SrfOF3FWAg" source="_ISMj8KpBEey4SrfOF3FWAg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gctnMKpBEey4SrfOF3FWAg" target="_euHXYKpBEey4SrfOF3FWAg" source="_RzjlcKpBEey4SrfOF3FWAg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_hjFZYKpBEey4SrfOF3FWAg" target="_euHXYKpBEey4SrfOF3FWAg" source="_Mret0KpAEey4SrfOF3FWAg"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_yxmT0KpBEey4SrfOF3FWAg" target="_tGFigKpBEey4SrfOF3FWAg" source="_euHXYKpBEey4SrfOF3FWAg"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_Iz31AKo-Eey4SrfOF3FWAg" name="Vlasnik želi da plati račun" outgoing="_7AsjkKo-Eey4SrfOF3FWAg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_ubYo4Ko-Eey4SrfOF3FWAg" name="vrsta računa" incoming="_7AsjkKo-Eey4SrfOF3FWAg" outgoing="_Z88ZUKo_Eey4SrfOF3FWAg _cBXvMKo_Eey4SrfOF3FWAg"/>
+    <node xmi:type="uml:AddVariableValueAction" xmi:id="_LYsFsKo_Eey4SrfOF3FWAg" name="Online" incoming="_cBXvMKo_Eey4SrfOF3FWAg" outgoing="_86z08KpAEey4SrfOF3FWAg"/>
+    <node xmi:type="uml:AddVariableValueAction" xmi:id="_QQ9cMKo_Eey4SrfOF3FWAg" name="Račun iz sandučeta" incoming="_Z88ZUKo_Eey4SrfOF3FWAg" outgoing="_T80NcKpAEey4SrfOF3FWAg"/>
+    <node xmi:type="uml:AddVariableValueAction" xmi:id="__QE4oKo_Eey4SrfOF3FWAg" name="Otvaranje koverte sa računom" incoming="_T80NcKpAEey4SrfOF3FWAg" outgoing="_U8wngKpAEey4SrfOF3FWAg"/>
+    <node xmi:type="uml:AddVariableValueAction" xmi:id="_Mret0KpAEey4SrfOF3FWAg" name="Plaćanje na šalteru" incoming="_U8wngKpAEey4SrfOF3FWAg" outgoing="_hjFZYKpBEey4SrfOF3FWAg"/>
+    <node xmi:type="uml:AddVariableValueAction" xmi:id="_bqcngKpAEey4SrfOF3FWAg" name="Pristup web sajtu" incoming="_98q6kKpAEey4SrfOF3FWAg" outgoing="_Kt5KUKpBEey4SrfOF3FWAg"/>
+    <node xmi:type="uml:AddVariableValueAction" xmi:id="_cJzdAKpAEey4SrfOF3FWAg" name="Pristup preko mobilne aplikacije" incoming="_-vk-MKpAEey4SrfOF3FWAg" outgoing="_JzR8MKpBEey4SrfOF3FWAg"/>
+    <node xmi:type="uml:DecisionNode" xmi:id="_0XQfgKpAEey4SrfOF3FWAg" name="način pristupa online računu" incoming="_86z08KpAEey4SrfOF3FWAg" outgoing="_98q6kKpAEey4SrfOF3FWAg _-vk-MKpAEey4SrfOF3FWAg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_ISMj8KpBEey4SrfOF3FWAg" name="pristup odobren" incoming="_JzR8MKpBEey4SrfOF3FWAg _Kt5KUKpBEey4SrfOF3FWAg" outgoing="_ZST2AKpBEey4SrfOF3FWAg"/>
+    <node xmi:type="uml:AddVariableValueAction" xmi:id="_RzjlcKpBEey4SrfOF3FWAg" name="Online plaćanje" incoming="_ZST2AKpBEey4SrfOF3FWAg" outgoing="_gctnMKpBEey4SrfOF3FWAg"/>
+    <node xmi:type="uml:MergeNode" xmi:id="_euHXYKpBEey4SrfOF3FWAg" name="plaćanje završeno" incoming="_gctnMKpBEey4SrfOF3FWAg _hjFZYKpBEey4SrfOF3FWAg" outgoing="_yxmT0KpBEey4SrfOF3FWAg"/>
+    <node xmi:type="uml:ActivityFinalNode" xmi:id="_tGFigKpBEey4SrfOF3FWAg" name="Evidencija o plaćenim računima" incoming="_yxmT0KpBEey4SrfOF3FWAg"/>
+  </packagedElement>
+</uml:Model>

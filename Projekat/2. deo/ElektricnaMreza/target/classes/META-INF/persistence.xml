@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence xmlns="http://java.sun.com/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+             http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd"
+    version="2.0">
+ 
+    <persistence-unit name="EmployeePU">
+        <provider>org.hibernate.ejb.HibernatePersistence</provider>
+        
+        <class>elektricna_mreza.Domacinstvo</class>
+        <class>elektricna_mreza.Racun</class>
+        <class>elektricna_mreza.Stanje</class>
+        <class>elektricna_mreza_servisi_impl.DomacinstvoServiceImpl</class>
+        <class>testovi.TestBL</class>
+		<class>testovi.TestCase</class>
+		<class>testovi.TestRacun</class>
+		<class>testovi.TestRacunFunkcije</class>
+		<class>testovi.TestStanje</class>
+		<class>testovi.TestStanjeFunkcije</class>
+
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:mysql://localhost:3307/baza" />
+            <property name="hibernate.connection.driver_class" value="com.mysql.jdbc.Driver" />
+            <property name="hibernate.connection.username" value="root" />
+            <property name="hibernate.connection.password" value="root" />
+            <property name="hibernate.archive.autodetection" value="class" />
+            <property name="hibernate.show_sql" value="true" />
+            <property name="hibernate.format_sql" value="true" />
+            <property name="hbm2ddl.auto" value="update" />
+        </properties>
+        
+    </persistence-unit>
+</persistence>
+

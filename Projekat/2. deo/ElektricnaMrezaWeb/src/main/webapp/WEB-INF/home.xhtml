@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:a="http://xmlns.jcp.org/jsf/passthrough"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:h="http://xmlns.jcp.org/jsf/html">
+<h:head>
+	<title>ElektricnaMrezaWeb</title>
+</h:head>
+<h:body>
+	<h:form>
+		<h:panelGrid columns="2" cellpadding="5">
+		
+			<p:outputLabel value="Ime" />
+			<p:inputText value="#{domacinstvoController.domacinstvo.ime}"></p:inputText>
+			<p:outputLabel value="Prezime" />
+			<p:inputText value="#{domacinstvoController.domacinstvo.prezime}"></p:inputText>
+			<p:outputLabel value="Adresa" />
+			<p:inputText value="#{domacinstvoController.domacinstvo.adresa}"></p:inputText>
+			<p:outputLabel></p:outputLabel>
+			<p:commandButton value="Dodaj domacinsvo"
+				action="#{domacinstvoController.addDomacinstvo(domacinstvoController.domacinstvo)}"></p:commandButton>
+			<p:outputLabel value="Id domacinstva koje zelis da izbrises" />	
+			<p:inputText value="#{domacinstvoController.id}"></p:inputText>
+			<p:outputLabel></p:outputLabel>
+			<p:commandButton value="Obrisi domacinstvo"
+				action="#{domacinstvoController.deleteDomacinstvo(domacinstvoController.id)}"></p:commandButton>
+	
+			<p:outputLabel value="Id arese koju zelis da izmenis" />	
+			<p:inputText value="#{domacinstvoController.sid}"></p:inputText>
+		    <p:outputLabel value="Nova adresa" />	
+			<p:inputText value="#{domacinstvoController.adresa}"></p:inputText>
+			<p:outputLabel></p:outputLabel>
+			<p:commandButton value="Azuriraj domacinstvo"
+				action="#{domacinstvoController.updateDomacinstvo(domacinstvoController.sid, domacinstvoController.adresa)}"></p:commandButton>
+	
+			<p:outputLabel value="Id domacinstva" />	
+			<p:inputText value="#{racunController.racun.id_domacinstva}"></p:inputText>
+		    <p:outputLabel value="Id stanja" />	
+			<p:inputText value="#{racunController.racun.id_stanja}"></p:inputText>
+			<p:outputLabel></p:outputLabel>
+	       <p:commandButton value="Vidi stanje"
+				action="#{racunController.vidiIznosRacuna(racunController.iddomacinstva,racunController.idstanja)}"></p:commandButton>
+			
+			 <p:outputLabel value="Id stanja za pregled" />	
+			<p:inputText value="#{stanjeController.stanje.idstanja}"></p:inputText>
+			<p:outputLabel></p:outputLabel>
+	       <p:commandButton value="Vidi stanje u nizoj tarifi"
+				action="#{stanjeController.vratiKolPotroseneEnergijeUNizojTarifi(stanjeController.id)}"></p:commandButton>
+				
+				
+		    <p:outputLabel value="Id stanja za pregled" />	
+			<p:inputText value="#{stanjeController.stanje.idstanja}"></p:inputText>
+			<p:outputLabel></p:outputLabel>
+	       <p:commandButton value="Vidi stanje u visoj tarifi"
+				action="#{stanjeController.vratiKolPotroseneEnergijeUVisojTarifi(stanjeController.id)}"></p:commandButton>
+				
+			<p:outputLabel value="visa tarifa" />
+			<p:inputText value="#{stanjeController.stanje.potrosnja_u_visoj_tarifi}"></p:inputText>
+			<p:outputLabel value="niza tarifa" />
+			<p:inputText value="#{stanjeController.stanje.potrosnja_u_nizoj_tarifi}"></p:inputText>
+			<p:outputLabel></p:outputLabel>
+			<p:commandButton value="Dodaj stanje"
+				action="#{stanjeController.saveStanje(stanjeController.stanje)}"></p:commandButton>
+				
+		</h:panelGrid>
+	</h:form>
+</h:body>
+</html>

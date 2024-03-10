@@ -1,0 +1,1511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_OrGOUOPqEeyfRrRnM3yZ2w">
+  <modelElement href="ElektricnaMreza.uml#_UrFa0OPqEeyfRrRnM3yZ2w"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_0V3xkOPqEeyfRrRnM3yZ2w" sourceAnchor="201.0,0.0" targetAnchor="177.0,177.0" dashed="true" superClass="_wALjsOPqEeyfRrRnM3yZ2w" subClass="_0WCJoOPqEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_0ThBIOPqEeyfRrRnM3yZ2w"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_0WBikOPqEeyfRrRnM3yZ2w" source="_0WCJoOPqEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_0TpkAOPqEeyfRrRnM3yZ2w"/>
+    <stereotypes xmi:id="_0WBikePqEeyfRrRnM3yZ2w" name="Reference">
+      <modelElement href="ElektricnaMreza.uml#_0TucgOPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_0WBikuPqEeyfRrRnM3yZ2w" text=""/>
+    <sourceRole xmi:id="_0WBik-PqEeyfRrRnM3yZ2w" aggregationKind="NONE" name="">
+      <modelElement href="ElektricnaMreza.uml#_0TqLEOPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_0WBilOPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_0WBilePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_0WBiluPqEeyfRrRnM3yZ2w" aggregationKind="NONE" name="em" navigable="true">
+      <modelElement href="ElektricnaMreza.uml#_0TlSkOPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_0WBil-PqEeyfRrRnM3yZ2w" label="-"/>
+      <cardinality xmi:id="_0WBimOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_1h9xQOPqEeyfRrRnM3yZ2w" sourceAnchor="222.0,0.0" targetAnchor="213.0,108.0" dashed="true" superClass="_wteukOPqEeyfRrRnM3yZ2w" subClass="_1iCCsOPqEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_1f0cMOPqEeyfRrRnM3yZ2w"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_1h-YUOPqEeyfRrRnM3yZ2w" source="_1iCCsOPqEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_1f3fgOPqEeyfRrRnM3yZ2w"/>
+    <stereotypes xmi:id="_1iA0kOPqEeyfRrRnM3yZ2w" name="Reference">
+      <modelElement href="ElektricnaMreza.uml#_1f8YAOPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_1h_mcOPqEeyfRrRnM3yZ2w" text=""/>
+    <sourceRole xmi:id="_1iANgOPqEeyfRrRnM3yZ2w" aggregationKind="NONE" name="">
+      <modelElement href="ElektricnaMreza.uml#_1f4GkOPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_1iA0kuPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_1iA0kePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_1iANgePqEeyfRrRnM3yZ2w" aggregationKind="NONE" name="em" navigable="true">
+      <modelElement href="ElektricnaMreza.uml#_1f1qUOPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_1iBboePqEeyfRrRnM3yZ2w" label="-"/>
+      <cardinality xmi:id="_1iBboOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_2hTuYOPqEeyfRrRnM3yZ2w" sourceAnchor="190.0,0.0" targetAnchor="182.0,131.0" dashed="true" superClass="_xPxjUOPqEeyfRrRnM3yZ2w" subClass="_2hYm4uPqEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_2e6hsOPqEeyfRrRnM3yZ2w"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_2hUVcOPqEeyfRrRnM3yZ2w" source="_2hYm4uPqEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_2fDEkOPqEeyfRrRnM3yZ2w"/>
+    <stereotypes xmi:id="_2hWKouPqEeyfRrRnM3yZ2w" name="Reference">
+      <modelElement href="ElektricnaMreza.uml#_2fHWAOPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_2hVjkOPqEeyfRrRnM3yZ2w" text=""/>
+    <sourceRole xmi:id="_2hWKoOPqEeyfRrRnM3yZ2w" aggregationKind="NONE" name="">
+      <modelElement href="ElektricnaMreza.uml#_2fDEkePqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_2hX_0ePqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_2hX_0OPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_2hWKoePqEeyfRrRnM3yZ2w" aggregationKind="NONE" name="em" navigable="true">
+      <modelElement href="ElektricnaMreza.uml#_2e9lAOPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_2hYm4ePqEeyfRrRnM3yZ2w" label="-"/>
+      <cardinality xmi:id="_2hYm4OPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_7cpnAOPqEeyfRrRnM3yZ2w" sourceAnchor="210.0,0.0" targetAnchor="316.0,207.0" target="_U3bNsOPqEeyfRrRnM3yZ2w" source="_7cyJ4OPqEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_7aHQYOPqEeyfRrRnM3yZ2w"/>
+    <stereotypes xmi:id="_7csDQePqEeyfRrRnM3yZ2w" name="Reference">
+      <modelElement href="ElektricnaMreza.uml#_7aLh0OPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_7crcMOPqEeyfRrRnM3yZ2w" text="">
+      <visualProperties xmi:id="_7htGIOPqEeyfRrRnM3yZ2w" position="-83.0,-36.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_7crcMePqEeyfRrRnM3yZ2w" aggregationKind="NONE" name="">
+      <modelElement href="ElektricnaMreza.uml#_7aHQYePqEeyfRrRnM3yZ2w"/>
+      <visualProperties xmi:id="_7hsfEOPqEeyfRrRnM3yZ2w" position="-19.0,-62.0"/>
+      <visibility xmi:id="_7cvtoOPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_7cvGkOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_7csDQOPqEeyfRrRnM3yZ2w" aggregationKind="NONE" name="domacinstvo" navigable="true">
+      <modelElement href="ElektricnaMreza.uml#_7aBJwePqEeyfRrRnM3yZ2w"/>
+      <visualProperties xmi:id="_7httMOPqEeyfRrRnM3yZ2w" position="1.0,6.0"/>
+      <visibility xmi:id="_7cvtouPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_7cvtoePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_7cq1IOPqEeyfRrRnM3yZ2w" sourceAnchor="199.0,253.0" targetAnchor="177.0,0.0" target="_wALjsOPqEeyfRrRnM3yZ2w" source="_7cyJ4OPqEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_7aMI4OPqEeyfRrRnM3yZ2w"/>
+    <stereotypes xmi:id="_7ctRYePqEeyfRrRnM3yZ2w" name="Reference">
+      <modelElement href="ElektricnaMreza.uml#_7aSPgOPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_7csDQuPqEeyfRrRnM3yZ2w" text="">
+      <visualProperties xmi:id="_7hu7UOPqEeyfRrRnM3yZ2w" position="40.0,12.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_7csDQ-PqEeyfRrRnM3yZ2w" aggregationKind="NONE" name="">
+      <modelElement href="ElektricnaMreza.uml#_7aMI4ePqEeyfRrRnM3yZ2w"/>
+      <visualProperties xmi:id="_7huUQOPqEeyfRrRnM3yZ2w" position="1.0,9.0"/>
+      <visibility xmi:id="_7cvtpePqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_7cvtpOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_7ctRYOPqEeyfRrRnM3yZ2w" aggregationKind="NONE" name="service" navigable="true">
+      <modelElement href="ElektricnaMreza.uml#_7aENEOPqEeyfRrRnM3yZ2w"/>
+      <visualProperties xmi:id="_7hviYOPqEeyfRrRnM3yZ2w" position="-64.0,-61.0"/>
+      <visibility xmi:id="_7cvtp-PqEeyfRrRnM3yZ2w" label="-"/>
+      <cardinality xmi:id="_7cvtpuPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_EP4XMOPrEeyfRrRnM3yZ2w" sourceAnchor="155.0,0.0" targetAnchor="262.0,230.0" target="_r7PHkOPqEeyfRrRnM3yZ2w" source="_EP_E4OPrEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_EN298OPrEeyfRrRnM3yZ2w"/>
+    <stereotypes xmi:id="_EP6MYuPrEeyfRrRnM3yZ2w" name="Reference">
+      <modelElement href="ElektricnaMreza.uml#_EN72cOPrEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_EP5lUOPrEeyfRrRnM3yZ2w" text="">
+      <visualProperties xmi:id="_ETiIIePrEeyfRrRnM3yZ2w" position="-87.0,-40.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_EP6MYOPrEeyfRrRnM3yZ2w" aggregationKind="NONE" name="">
+      <modelElement href="ElektricnaMreza.uml#_EN298ePrEeyfRrRnM3yZ2w"/>
+      <visualProperties xmi:id="_ETiIIOPrEeyfRrRnM3yZ2w" position="-18.0,-65.0"/>
+      <visibility xmi:id="_EP8BkePrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_EP8BkOPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_EP6MYePrEeyfRrRnM3yZ2w" aggregationKind="NONE" name="stanje" navigable="true">
+      <modelElement href="ElektricnaMreza.uml#_ENw3UePrEeyfRrRnM3yZ2w"/>
+      <visualProperties xmi:id="_ETiIIuPrEeyfRrRnM3yZ2w" position="2.0,9.0"/>
+      <visibility xmi:id="_EP8ooePrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_EP8ooOPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_EP4-QOPrEeyfRrRnM3yZ2w" sourceAnchor="191.0,230.0" targetAnchor="182.0,0.0" target="_xPxjUOPqEeyfRrRnM3yZ2w" source="_EP_E4OPrEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_EN72cePrEeyfRrRnM3yZ2w"/>
+    <stereotypes xmi:id="_EP6MZuPrEeyfRrRnM3yZ2w" name="Reference">
+      <modelElement href="ElektricnaMreza.uml#_EN-5wOPrEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_EP6MY-PrEeyfRrRnM3yZ2w" text="">
+      <visualProperties xmi:id="_ETjWQOPrEeyfRrRnM3yZ2w" position="-43.0,-11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_EP6MZOPrEeyfRrRnM3yZ2w" aggregationKind="NONE" name="">
+      <modelElement href="ElektricnaMreza.uml#_EN72cuPrEeyfRrRnM3yZ2w"/>
+      <visualProperties xmi:id="_ETivMOPrEeyfRrRnM3yZ2w" position="2.0,9.0"/>
+      <visibility xmi:id="_EP8opOPrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_EP8oo-PrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_EP6MZePrEeyfRrRnM3yZ2w" aggregationKind="NONE" name="service" navigable="true">
+      <modelElement href="ElektricnaMreza.uml#_ENyshOPrEeyfRrRnM3yZ2w"/>
+      <visualProperties xmi:id="_ETjWQePrEeyfRrRnM3yZ2w" position="41.0,-56.0"/>
+      <visibility xmi:id="_EP9PsOPrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_EP8opePrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_I1VfYOPrEeyfRrRnM3yZ2w" sourceAnchor="241.0,0.0" targetAnchor="542.0,345.0" target="_WysAgOPqEeyfRrRnM3yZ2w" source="_I1bmAOPrEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_IzMKUOPrEeyfRrRnM3yZ2w"/>
+    <stereotypes xmi:id="_I1XUkuPrEeyfRrRnM3yZ2w" name="Reference">
+      <modelElement href="ElektricnaMreza.uml#_IzPNoOPrEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_I1WtgOPrEeyfRrRnM3yZ2w" text="">
+      <visualProperties xmi:id="_I5x6gePrEeyfRrRnM3yZ2w" position="-43.0,-11.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_I1XUkOPrEeyfRrRnM3yZ2w" aggregationKind="NONE" name="">
+      <modelElement href="ElektricnaMreza.uml#_IzMKUePrEeyfRrRnM3yZ2w"/>
+      <visualProperties xmi:id="_I5x6gOPrEeyfRrRnM3yZ2w" position="2.0,-63.0"/>
+      <visibility xmi:id="_I1Zw0ePrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_I1Zw0OPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_I1XUkePrEeyfRrRnM3yZ2w" aggregationKind="NONE" name="racun" navigable="true">
+      <modelElement href="ElektricnaMreza.uml#_IzHR0ePrEeyfRrRnM3yZ2w"/>
+      <visualProperties xmi:id="_I5yhkOPrEeyfRrRnM3yZ2w" position="41.0,1.0"/>
+      <visibility xmi:id="_I1Zw0-PrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_I1Zw0uPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_I1WGcOPrEeyfRrRnM3yZ2w" sourceAnchor="241.0,253.0" targetAnchor="213.0,0.0" target="_wteukOPqEeyfRrRnM3yZ2w" source="_I1bmAOPrEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_IzP0sOPrEeyfRrRnM3yZ2w"/>
+    <stereotypes xmi:id="_I1X7o-PrEeyfRrRnM3yZ2w" name="Reference">
+      <modelElement href="ElektricnaMreza.uml#_IzUGIOPrEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <nameVisual xmi:id="_I1X7oOPrEeyfRrRnM3yZ2w" text="">
+      <visualProperties xmi:id="_I50WwOPrEeyfRrRnM3yZ2w" position="41.0,-26.0"/>
+    </nameVisual>
+    <sourceRole xmi:id="_I1X7oePrEeyfRrRnM3yZ2w" aggregationKind="NONE" name="">
+      <modelElement href="ElektricnaMreza.uml#_IzP0sePrEeyfRrRnM3yZ2w"/>
+      <visualProperties xmi:id="_I5zIoOPrEeyfRrRnM3yZ2w" position="2.0,-1.0"/>
+      <visibility xmi:id="_I1Zw1uPrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_I1Zw1ePrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_I1X7ouPrEeyfRrRnM3yZ2w" aggregationKind="NONE" name="service" navigable="true">
+      <modelElement href="ElektricnaMreza.uml#_IzJuFOPrEeyfRrRnM3yZ2w"/>
+      <visualProperties xmi:id="_I5090OPrEeyfRrRnM3yZ2w" position="-63.0,-55.0"/>
+      <visibility xmi:id="_I1aX4ePrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_I1aX4OPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_U3bNsOPqEeyfRrRnM3yZ2w" name="Domacinstvo" associationsIn="_7cpnAOPqEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_UrdOQOPqEeyfRrRnM3yZ2w"/>
+    <visualProperties xmi:id="_U3bNsePqEeyfRrRnM3yZ2w" position="-424.0,69.0" size="631.0,207.0"/>
+    <stereotypes xmi:id="_U3bNsuPqEeyfRrRnM3yZ2w" name="Table">
+      <modelElement href="ElektricnaMreza.uml#_UrzMgOPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_U3bNs-PqEeyfRrRnM3yZ2w" name="JPA1StyledElement">
+      <modelElement href="ElektricnaMreza.uml#_Ur3d8OPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <visibility xmi:id="_U3bNtOPqEeyfRrRnM3yZ2w" label="+"/>
+    <attributes xmi:id="_U3bNtePqEeyfRrRnM3yZ2w" name="iddomacinstva">
+      <modelElement href="ElektricnaMreza.uml#_UuwZ4OPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_U3bNtuPqEeyfRrRnM3yZ2w" name="LegacyStyledElement">
+        <modelElement href="ElektricnaMreza.uml#_UuxoAOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_U3bNt-PqEeyfRrRnM3yZ2w" name="Annotations">
+        <modelElement href="ElektricnaMreza.uml#_Uu0rUOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_U3bNuOPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_U3bNuePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_U3bNuuPqEeyfRrRnM3yZ2w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_U3b0wOPqEeyfRrRnM3yZ2w" name="ime">
+      <modelElement href="ElektricnaMreza.uml#_Uu5j0OPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_U3b0wePqEeyfRrRnM3yZ2w" name="Column">
+        <modelElement href="ElektricnaMreza.uml#_Uu_qcOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_U3b0wuPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_U3b0w-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_U3b0xOPqEeyfRrRnM3yZ2w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_U3b0xePqEeyfRrRnM3yZ2w" name="prezime">
+      <modelElement href="ElektricnaMreza.uml#_UvDU0OPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_U3b0xuPqEeyfRrRnM3yZ2w" name="Column">
+        <modelElement href="ElektricnaMreza.uml#_UvQwMOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_U3b0x-PqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_U3b0yOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_U3b0yePqEeyfRrRnM3yZ2w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_U3b0yuPqEeyfRrRnM3yZ2w" name="adresa">
+      <modelElement href="ElektricnaMreza.uml#_UvRXQOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_U3b0y-PqEeyfRrRnM3yZ2w" name="Column">
+        <modelElement href="ElektricnaMreza.uml#_UvbvUOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_U3b0zOPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_U3b0zePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_U3b0zuPqEeyfRrRnM3yZ2w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_U3b0z-PqEeyfRrRnM3yZ2w" name="Domacinstvo">
+      <modelElement href="ElektricnaMreza.uml#_Ur7IUOPqEeyfRrRnM3yZ2w"/>
+      <keywords xmi:id="_U3b00OPqEeyfRrRnM3yZ2w" keyword="create"/>
+      <stereotypes xmi:id="_U3b00ePqEeyfRrRnM3yZ2w" name="LegacyStyledElement">
+        <modelElement href="ElektricnaMreza.uml#_Ur8WcOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_U3b00uPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_U3b00-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_U3b01OPqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_Ur9kkOPqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_U3b01ePqEeyfRrRnM3yZ2w" name="Domacinstvo">
+          <modelElement href="ElektricnaMreza.uml#_UrdOQOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_U3b01uPqEeyfRrRnM3yZ2w" name="Domacinstvo">
+      <modelElement href="ElektricnaMreza.uml#_Ur_ZwOPqEeyfRrRnM3yZ2w"/>
+      <keywords xmi:id="_U3b01-PqEeyfRrRnM3yZ2w" keyword="create"/>
+      <stereotypes xmi:id="_U3b02OPqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_UsESQOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_U3b02ePqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_U3b02uPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_U3b02-PqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_UsCdEuPqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_U3b03OPqEeyfRrRnM3yZ2w" name="Domacinstvo">
+          <modelElement href="ElektricnaMreza.uml#_UrdOQOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_U3b03ePqEeyfRrRnM3yZ2w" name="domacinstvoId">
+        <modelElement href="ElektricnaMreza.uml#_Ur_ZwePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_U3b03uPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_U3b03-PqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_U3b04OPqEeyfRrRnM3yZ2w" name="ime">
+        <modelElement href="ElektricnaMreza.uml#_Ur_ZwuPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_U3b04ePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_U3b04uPqEeyfRrRnM3yZ2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_U3b04-PqEeyfRrRnM3yZ2w" name="prezime">
+        <modelElement href="ElektricnaMreza.uml#_UsBO8OPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_U3b05OPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_U3b05ePqEeyfRrRnM3yZ2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_U3b05uPqEeyfRrRnM3yZ2w" name="adresa">
+        <modelElement href="ElektricnaMreza.uml#_UsB2AOPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_U3b05-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_U3b06OPqEeyfRrRnM3yZ2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_r7PHkOPqEeyfRrRnM3yZ2w" name="Stanje" associationsIn="_EP4XMOPrEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_r4umIOPqEeyfRrRnM3yZ2w"/>
+    <visualProperties xmi:id="_r7PHkePqEeyfRrRnM3yZ2w" position="252.0,72.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_r7PHkuPqEeyfRrRnM3yZ2w" name="Table">
+      <modelElement href="ElektricnaMreza.uml#_r44XIOPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_r7PHk-PqEeyfRrRnM3yZ2w" name="JPA1StyledElement">
+      <modelElement href="ElektricnaMreza.uml#_r45lQOPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <visibility xmi:id="_r7PHlOPqEeyfRrRnM3yZ2w" label="+"/>
+    <attributes xmi:id="_r7PHlePqEeyfRrRnM3yZ2w" name="idstanja">
+      <modelElement href="ElektricnaMreza.uml#_r5I10OPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_r7PHluPqEeyfRrRnM3yZ2w" name="LegacyStyledElement">
+        <modelElement href="ElektricnaMreza.uml#_r5I10ePqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_r7PHl-PqEeyfRrRnM3yZ2w" name="Annotations">
+        <modelElement href="ElektricnaMreza.uml#_r5Jc4OPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_r7PHmOPqEeyfRrRnM3yZ2w" label="-"/>
+      <cardinality xmi:id="_r7PHmePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_r7PHmuPqEeyfRrRnM3yZ2w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_r7PHm-PqEeyfRrRnM3yZ2w" name="potrosnja_u_nizoj_tarifi">
+      <modelElement href="ElektricnaMreza.uml#_r5KrAOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_r7PHnOPqEeyfRrRnM3yZ2w" name="Column">
+        <modelElement href="ElektricnaMreza.uml#_r5QxoOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_r7PHnePqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_r7PHnuPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_r7PHn-PqEeyfRrRnM3yZ2w" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_r7PHoOPqEeyfRrRnM3yZ2w" name="potrosnja_u_visoj_tarifi">
+      <modelElement href="ElektricnaMreza.uml#_r5R_wOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_r7PHoePqEeyfRrRnM3yZ2w" name="Column">
+        <modelElement href="ElektricnaMreza.uml#_r5W4QOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_r7PHouPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_r7PHo-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_r7PHpOPqEeyfRrRnM3yZ2w" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_r7PHpePqEeyfRrRnM3yZ2w" name="Stanje">
+      <modelElement href="ElektricnaMreza.uml#_r46zYOPqEeyfRrRnM3yZ2w"/>
+      <keywords xmi:id="_r7PHpuPqEeyfRrRnM3yZ2w" keyword="create"/>
+      <stereotypes xmi:id="_r7PHp-PqEeyfRrRnM3yZ2w" name="LegacyStyledElement">
+        <modelElement href="ElektricnaMreza.uml#_r47acuPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_r7PHqOPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_r7PHqePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_r7PHquPqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_r48BgOPqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_r7PHq-PqEeyfRrRnM3yZ2w" name="Stanje">
+          <modelElement href="ElektricnaMreza.uml#_r4umIOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_r7PHrOPqEeyfRrRnM3yZ2w" name="Stanje">
+      <modelElement href="ElektricnaMreza.uml#_r48okOPqEeyfRrRnM3yZ2w"/>
+      <keywords xmi:id="_r7PHrePqEeyfRrRnM3yZ2w" keyword="create"/>
+      <stereotypes xmi:id="_r7PHruPqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_r492suPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_r7PHr-PqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_r7PuoOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_r7PuoePqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_r492sePqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_r7PuouPqEeyfRrRnM3yZ2w" name="Stanje">
+          <modelElement href="ElektricnaMreza.uml#_r4umIOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_r7Puo-PqEeyfRrRnM3yZ2w" name="idstanja">
+        <modelElement href="ElektricnaMreza.uml#_r49PoOPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_r7PupOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_r7PupePqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_r7PupuPqEeyfRrRnM3yZ2w" name="potrosnjav">
+        <modelElement href="ElektricnaMreza.uml#_r49PoePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_r7Pup-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_r7PuqOPqEeyfRrRnM3yZ2w" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_r7PuqePqEeyfRrRnM3yZ2w" name="potrosnjan">
+        <modelElement href="ElektricnaMreza.uml#_r49PouPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_r7PuquPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_r7Puq-PqEeyfRrRnM3yZ2w" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_r7PurOPqEeyfRrRnM3yZ2w" name="getIdstanja">
+      <modelElement href="ElektricnaMreza.uml#_r4-dwOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_r7PurePqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_r4-dwuPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_r7PuruPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_r7Pur-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_r7PusOPqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_r4-dwePqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_r7PusePqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_r7PusuPqEeyfRrRnM3yZ2w" name="setIdstanja">
+      <modelElement href="ElektricnaMreza.uml#_r4_E0OPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_r7Pus-PqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_r4_r4OPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_r7PutOPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_r7PutePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_r7PutuPqEeyfRrRnM3yZ2w" name="idstanja">
+        <modelElement href="ElektricnaMreza.uml#_r4_E0ePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_r7Put-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_r7PuuOPqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_7cyJ4OPqEeyfRrRnM3yZ2w" name="DomacinstvoController" associationsOut="_7cpnAOPqEeyfRrRnM3yZ2w _7cq1IOPqEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_7ZdwIOPqEeyfRrRnM3yZ2w"/>
+    <visualProperties xmi:id="_7cyJ4ePqEeyfRrRnM3yZ2w" position="-318.0,350.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_7cyJ4uPqEeyfRrRnM3yZ2w" name="LegacyStyledElement">
+      <modelElement href="ElektricnaMreza.uml#_7Ze-QOPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_7cyJ4-PqEeyfRrRnM3yZ2w" name="Annotations">
+      <modelElement href="ElektricnaMreza.uml#_7ZlE4OPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <visibility xmi:id="_7cyJ5OPqEeyfRrRnM3yZ2w" label="+"/>
+    <attributes xmi:id="_7cyJ5ePqEeyfRrRnM3yZ2w" defaultValue="0" name="id">
+      <modelElement href="ElektricnaMreza.uml#_7aAisOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_7cyJ5uPqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_7aBJwOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_7cyJ5-PqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_7cyJ6OPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_7cyJ6ePqEeyfRrRnM3yZ2w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7cyJ6uPqEeyfRrRnM3yZ2w" defaultValue="new Domacinstvo()" name="domacinstvo">
+      <modelElement href="ElektricnaMreza.uml#_7aBJwePqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_7cyJ6-PqEeyfRrRnM3yZ2w" name="LegacyStyledElement">
+        <modelElement href="ElektricnaMreza.uml#_7aBw0OPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_7cyJ7OPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_7cyJ7ePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_7cyJ7uPqEeyfRrRnM3yZ2w" name="Domacinstvo">
+        <modelElement href="ElektricnaMreza.uml#_UrdOQOPqEeyfRrRnM3yZ2w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7cyJ7-PqEeyfRrRnM3yZ2w" defaultValue="0" name="sid">
+      <modelElement href="ElektricnaMreza.uml#_7aC-8OPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_7cyJ8OPqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_7aC-8uPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_7cyJ8ePqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_7cyJ8uPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_7cyJ8-PqEeyfRrRnM3yZ2w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7cyJ9OPqEeyfRrRnM3yZ2w" defaultValue="&quot;&quot;" name="adresa">
+      <modelElement href="ElektricnaMreza.uml#_7aC-8-PqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_7cyJ9ePqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_7aDmAOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_7cyJ9uPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_7cyJ9-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_7cyJ-OPqEeyfRrRnM3yZ2w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7cyJ-ePqEeyfRrRnM3yZ2w" defaultValue="&quot;&quot;" name="ime">
+      <modelElement href="ElektricnaMreza.uml#_7aDmAePqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_7cyJ-uPqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_7aDmA-PqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_7cyJ--PqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_7cyJ_OPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_7cyJ_ePqEeyfRrRnM3yZ2w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7cyJ_uPqEeyfRrRnM3yZ2w" defaultValue="&quot;&quot;" name="prezime">
+      <modelElement href="ElektricnaMreza.uml#_7aDmBOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_7cyJ_-PqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_7aDmBuPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_7cyKAOPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_7cyKAePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_7cyKAuPqEeyfRrRnM3yZ2w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_7cyKA-PqEeyfRrRnM3yZ2w" name="service">
+      <modelElement href="ElektricnaMreza.uml#_7aENEOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_7cyKBOPqEeyfRrRnM3yZ2w" name="Annotations">
+        <modelElement href="ElektricnaMreza.uml#_7aENEePqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_7cyKBePqEeyfRrRnM3yZ2w" label="-"/>
+      <cardinality xmi:id="_7cyKBuPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_7cyKB-PqEeyfRrRnM3yZ2w" name="DomacinstvoService">
+        <modelElement href="ElektricnaMreza.uml#_v-lBMOPqEeyfRrRnM3yZ2w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_7cyKCOPqEeyfRrRnM3yZ2w" name="deleteDomacinstvo">
+      <modelElement href="ElektricnaMreza.uml#_7ZhagOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_7cyKCePqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_7ZiBkOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_7cyKCuPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_7cyKC-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_7cyKDOPqEeyfRrRnM3yZ2w" name="id">
+        <modelElement href="ElektricnaMreza.uml#_7ZhagePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_7cyKDePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_7cyKDuPqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_7cyKD-PqEeyfRrRnM3yZ2w" name="updateDomacinstvo">
+      <modelElement href="ElektricnaMreza.uml#_7ZiooOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_7cyKEOPqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_7Zj2wOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_7cyKEePqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_7cyKEuPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_7cyKE-PqEeyfRrRnM3yZ2w" name="idDom">
+        <modelElement href="ElektricnaMreza.uml#_7ZjPsOPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_7cyKFOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_7cyKFePqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_7cyKFuPqEeyfRrRnM3yZ2w" name="mesto">
+        <modelElement href="ElektricnaMreza.uml#_7ZjPsePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_7cyKF-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_7cyKGOPqEeyfRrRnM3yZ2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_7cyKGePqEeyfRrRnM3yZ2w" name="addDomacinstvo">
+      <modelElement href="ElektricnaMreza.uml#_7Z-GcOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_7cyKGuPqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_7Z-tgOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_7cyKG-PqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_7cyKHOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_7cyKHePqEeyfRrRnM3yZ2w" name="dom">
+        <modelElement href="ElektricnaMreza.uml#_7Z-GcePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_7cyKHuPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_7cyKH-PqEeyfRrRnM3yZ2w" name="Domacinstvo">
+          <modelElement href="ElektricnaMreza.uml#_UrdOQOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_0WCJoOPqEeyfRrRnM3yZ2w" name="DomacinstvoServiceImpl" associationsOut="_0WBikOPqEeyfRrRnM3yZ2w" generalizations="_0V3xkOPqEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_0SJvMOPqEeyfRrRnM3yZ2w"/>
+    <visualProperties xmi:id="_0WCJoePqEeyfRrRnM3yZ2w" position="-320.0,906.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_0WCJouPqEeyfRrRnM3yZ2w" name="LegacyStyledElement">
+      <modelElement href="ElektricnaMreza.uml#_0SKWQOPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_0WCJo-PqEeyfRrRnM3yZ2w" name="Annotations">
+      <modelElement href="ElektricnaMreza.uml#_0STgMOPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <visibility xmi:id="_0WCJpOPqEeyfRrRnM3yZ2w" label="+"/>
+    <attributes xmi:id="_0WCJpePqEeyfRrRnM3yZ2w" name="em">
+      <modelElement href="ElektricnaMreza.uml#_0TlSkOPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_0WCJpuPqEeyfRrRnM3yZ2w" label="-"/>
+      <cardinality xmi:id="_0WCJp-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_0WCJqOPqEeyfRrRnM3yZ2w" name="EntityManager">
+        <modelElement href="ElektricnaMreza.uml#_0TImoePqEeyfRrRnM3yZ2w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_0WCJqePqEeyfRrRnM3yZ2w" name="DomacinstvoServiceImpl">
+      <modelElement href="ElektricnaMreza.uml#_0SK9UOPqEeyfRrRnM3yZ2w"/>
+      <keywords xmi:id="_0WCJquPqEeyfRrRnM3yZ2w" keyword="create"/>
+      <stereotypes xmi:id="_0WCJq-PqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_0SLkY-PqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_0WCJrOPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_0WCJrePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0WCJruPqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_0SLkYuPqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_0WCJr-PqEeyfRrRnM3yZ2w" name="DomacinstvoServiceImpl">
+          <modelElement href="ElektricnaMreza.uml#_0SJvMOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0WCJsOPqEeyfRrRnM3yZ2w" name="getDomacinstvo">
+      <modelElement href="ElektricnaMreza.uml#_0SMLcOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_0WCJsePqEeyfRrRnM3yZ2w" name="Annotations">
+        <modelElement href="ElektricnaMreza.uml#_0SMygOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_0WCJsuPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_0WCJs-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0WCJtOPqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_0TjdYePqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_0WCJtePqEeyfRrRnM3yZ2w" name="Domacinstvo">
+          <modelElement href="ElektricnaMreza.uml#_UrdOQOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_0WCJtuPqEeyfRrRnM3yZ2w" name="id">
+        <modelElement href="ElektricnaMreza.uml#_0SMLcePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_0WCJt-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_0WCJuOPqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0WCJuePqEeyfRrRnM3yZ2w" name="deleteDomacinstvo">
+      <modelElement href="ElektricnaMreza.uml#_0SNZkOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_0WCJuuPqEeyfRrRnM3yZ2w" name="Annotations">
+        <modelElement href="ElektricnaMreza.uml#_0SOnsOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_0WCJu-PqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_0WCJvOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0WCJvePqEeyfRrRnM3yZ2w" name="id">
+        <modelElement href="ElektricnaMreza.uml#_0SOAoOPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_0WCJvuPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_0WCJv-PqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0WCJwOPqEeyfRrRnM3yZ2w" name="updateDomacinstvo">
+      <modelElement href="ElektricnaMreza.uml#_0SOnsuPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_0WCJwePqEeyfRrRnM3yZ2w" name="Annotations">
+        <modelElement href="ElektricnaMreza.uml#_0SP10OPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_0WCJwuPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_0WCJw-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0WCJxOPqEeyfRrRnM3yZ2w" name="id">
+        <modelElement href="ElektricnaMreza.uml#_0SPOwOPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_0WCJxePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_0WCJxuPqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_0WCJx-PqEeyfRrRnM3yZ2w" name="adresa">
+        <modelElement href="ElektricnaMreza.uml#_0SPOwePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_0WCJyOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_0WCJyePqEeyfRrRnM3yZ2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_0WCJyuPqEeyfRrRnM3yZ2w" name="listAllDomacinstva">
+      <modelElement href="ElektricnaMreza.uml#_0SP10uPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_0WCJy-PqEeyfRrRnM3yZ2w" name="Annotations">
+        <modelElement href="ElektricnaMreza.uml#_0SRrAOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_0WCJzOPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_0WCJzePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_0WCJzuPqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_0SQc4OPqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_0WCJz-PqEeyfRrRnM3yZ2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0WCJ0OPqEeyfRrRnM3yZ2w" name="returnAllDomacinstva">
+      <modelElement href="ElektricnaMreza.uml#_0SRrAuPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_0WCJ0ePqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_0SS5IOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_0WCJ0uPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_0WCJ0-PqEeyfRrRnM3yZ2w" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_0WCJ1OPqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_0SSSEOPqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_0WCJ1ePqEeyfRrRnM3yZ2w" name="Domacinstvo">
+          <modelElement href="ElektricnaMreza.uml#_UrdOQOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_0WCJ1uPqEeyfRrRnM3yZ2w" name="addDomacinstvo">
+      <modelElement href="ElektricnaMreza.uml#_0TiPQOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_0WCJ1-PqEeyfRrRnM3yZ2w" name="Annotations">
+        <modelElement href="ElektricnaMreza.uml#_0Ti2UOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_0WCJ2OPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_0WCJ2ePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_0WCJ2uPqEeyfRrRnM3yZ2w" name="dom">
+        <modelElement href="ElektricnaMreza.uml#_0TiPQePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_0WCJ2-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_0WCJ3OPqEeyfRrRnM3yZ2w" name="Domacinstvo">
+          <modelElement href="ElektricnaMreza.uml#_UrdOQOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_wALjsOPqEeyfRrRnM3yZ2w" name="DomacinstvoService" associationsIn="_7cq1IOPqEeyfRrRnM3yZ2w" subclassedBy="_0V3xkOPqEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_v-lBMOPqEeyfRrRnM3yZ2w"/>
+    <visualProperties xmi:id="_wALjsePqEeyfRrRnM3yZ2w" position="-296.0,673.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wALjsuPqEeyfRrRnM3yZ2w" label="+"/>
+    <operations xmi:id="_wALjs-PqEeyfRrRnM3yZ2w" name="getDomacinstvo">
+      <modelElement href="ElektricnaMreza.uml#_v-mPUOPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_wALjtOPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_wALjtePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wALjtuPqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_v-uLIOPqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_wALjt-PqEeyfRrRnM3yZ2w" name="Domacinstvo">
+          <modelElement href="ElektricnaMreza.uml#_UrdOQOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wALjuOPqEeyfRrRnM3yZ2w" name="id">
+        <modelElement href="ElektricnaMreza.uml#_v-mPUePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_wALjuePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_wALjuuPqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wALju-PqEeyfRrRnM3yZ2w" name="deleteDomacinstvo">
+      <modelElement href="ElektricnaMreza.uml#_v-m2YOPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_wAMKwOPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_wAMKwePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wAMKwuPqEeyfRrRnM3yZ2w" name="id">
+        <modelElement href="ElektricnaMreza.uml#_v-ndcOPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_wAMKw-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_wAMKxOPqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wAMKxePqEeyfRrRnM3yZ2w" name="updateDomacinstvo">
+      <modelElement href="ElektricnaMreza.uml#_v-oEgOPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_wAMKxuPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_wAMKx-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wAMKyOPqEeyfRrRnM3yZ2w" name="id">
+        <modelElement href="ElektricnaMreza.uml#_v-oEgePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_wAMKyePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_wAMKyuPqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wAMKy-PqEeyfRrRnM3yZ2w" name="adresa">
+        <modelElement href="ElektricnaMreza.uml#_v-oEguPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_wAMKzOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_wAMKzePqEeyfRrRnM3yZ2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wAMKzuPqEeyfRrRnM3yZ2w" name="listAllDomacinstva">
+      <modelElement href="ElektricnaMreza.uml#_v-oEg-PqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_wAMKz-PqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_wAMK0OPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wAMK0ePqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_v-orkOPqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_wAMK0uPqEeyfRrRnM3yZ2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_wAMK0-PqEeyfRrRnM3yZ2w" name="addDomacinstvo">
+      <modelElement href="ElektricnaMreza.uml#_v-s9AOPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_wAMK1OPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_wAMK1ePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wAMK1uPqEeyfRrRnM3yZ2w" name="dom">
+        <modelElement href="ElektricnaMreza.uml#_v-s9AePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_wAMK1-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_wAMK2OPqEeyfRrRnM3yZ2w" name="Domacinstvo">
+          <modelElement href="ElektricnaMreza.uml#_UrdOQOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_EP_E4OPrEeyfRrRnM3yZ2w" name="StanjeController" associationsOut="_EP4XMOPrEeyfRrRnM3yZ2w _EP4-QOPrEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_ENgYoOPrEeyfRrRnM3yZ2w"/>
+    <visualProperties xmi:id="_EP_E4ePrEeyfRrRnM3yZ2w" position="359.0,384.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_EP_E4uPrEeyfRrRnM3yZ2w" name="LegacyStyledElement">
+      <modelElement href="ElektricnaMreza.uml#_ENg_sOPrEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_EP_E4-PrEeyfRrRnM3yZ2w" name="Annotations">
+      <modelElement href="ElektricnaMreza.uml#_ENi04OPrEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <visibility xmi:id="_EP_E5OPrEeyfRrRnM3yZ2w" label="+"/>
+    <attributes xmi:id="_EP_E5ePrEeyfRrRnM3yZ2w" defaultValue="0" name="id">
+      <modelElement href="ElektricnaMreza.uml#_ENwQQOPrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_EP_E5uPrEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_ENw3UOPrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_EP_E5-PrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_EP_E6OPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_EP_E6ePrEeyfRrRnM3yZ2w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EP_E6uPrEeyfRrRnM3yZ2w" defaultValue="new Stanje()" name="stanje">
+      <modelElement href="ElektricnaMreza.uml#_ENw3UePrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_EP_E6-PrEeyfRrRnM3yZ2w" name="LegacyStyledElement">
+        <modelElement href="ElektricnaMreza.uml#_ENw3U-PrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_EP_E7OPrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_EP_E7ePrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_EP_E7uPrEeyfRrRnM3yZ2w" name="Stanje">
+        <modelElement href="ElektricnaMreza.uml#_r4umIOPqEeyfRrRnM3yZ2w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EP_E7-PrEeyfRrRnM3yZ2w" defaultValue="0" name="sid">
+      <modelElement href="ElektricnaMreza.uml#_ENyFcOPrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_EP_E8OPrEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_ENyFcuPrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_EP_E8ePrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_EP_E8uPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_EP_E8-PrEeyfRrRnM3yZ2w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EP_E9OPrEeyfRrRnM3yZ2w" defaultValue="0" name="potrosnja_u_visoj_tarifi">
+      <modelElement href="ElektricnaMreza.uml#_ENyFc-PrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_EP_E9ePrEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_ENysgOPrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_EP_E9uPrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_EP_E9-PrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_EP_E-OPrEeyfRrRnM3yZ2w" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EP_E-ePrEeyfRrRnM3yZ2w" defaultValue="0" name="potrosnja_u_nizoj_tarifi">
+      <modelElement href="ElektricnaMreza.uml#_ENysgePrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_EP_E-uPrEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_ENysg-PrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_EP_E--PrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_EP_E_OPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_EP_E_ePrEeyfRrRnM3yZ2w" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_EP_E_uPrEeyfRrRnM3yZ2w" name="service">
+      <modelElement href="ElektricnaMreza.uml#_ENyshOPrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_EP_E_-PrEeyfRrRnM3yZ2w" name="LegacyStyledElement">
+        <modelElement href="ElektricnaMreza.uml#_ENzTkOPrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_EP_FAOPrEeyfRrRnM3yZ2w" name="Annotations">
+        <modelElement href="ElektricnaMreza.uml#_ENz6oePrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_EP_FAePrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_EP_FAuPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_EP_FA-PrEeyfRrRnM3yZ2w" name="StanjeService">
+        <modelElement href="ElektricnaMreza.uml#_xOP5UOPqEeyfRrRnM3yZ2w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_EP_FBOPrEeyfRrRnM3yZ2w" name="vratiKolPotroseneEnergijeUNizojTarifi">
+      <modelElement href="ElektricnaMreza.uml#_ENhmwOPrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_EP_FBePrEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_ENiN0OPrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_EP_FBuPrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_EP_FB-PrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_EP_FCOPrEeyfRrRnM3yZ2w" name="id">
+        <modelElement href="ElektricnaMreza.uml#_ENhmwePrEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_EP_FCePrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_EP_FCuPrEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EP_FC-PrEeyfRrRnM3yZ2w" name="vratiKolPotroseneEnergijeUVisojTarifi">
+      <modelElement href="ElektricnaMreza.uml#_ENiN0ePrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_EP_FDOPrEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_ENiN0-PrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_EP_FDePrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_EP_FDuPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_EP_FD-PrEeyfRrRnM3yZ2w" name="id">
+        <modelElement href="ElektricnaMreza.uml#_ENiN0uPrEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_EP_FEOPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_EP_FEePrEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_EP_FEuPrEeyfRrRnM3yZ2w" name="saveStanje">
+      <modelElement href="ElektricnaMreza.uml#_ENt0AOPrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_EP_FE-PrEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_ENubEOPrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_EP_FFOPrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_EP_FFePrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_EP_FFuPrEeyfRrRnM3yZ2w" name="stanje">
+        <modelElement href="ElektricnaMreza.uml#_ENt0AePrEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_EP_FF-PrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_EP_FGOPrEeyfRrRnM3yZ2w" name="Stanje">
+          <modelElement href="ElektricnaMreza.uml#_r4umIOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_WysAgOPqEeyfRrRnM3yZ2w" name="Racun" associationsIn="_I1VfYOPrEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_WtNDkOPqEeyfRrRnM3yZ2w"/>
+    <visualProperties xmi:id="_WysAgePqEeyfRrRnM3yZ2w" position="833.0,71.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_WysAguPqEeyfRrRnM3yZ2w" name="Table">
+      <modelElement href="ElektricnaMreza.uml#_WtTxQOPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_WysAg-PqEeyfRrRnM3yZ2w" name="JPA1StyledElement">
+      <modelElement href="ElektricnaMreza.uml#_WtUYUOPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <visibility xmi:id="_WysAhOPqEeyfRrRnM3yZ2w" label="+"/>
+    <attributes xmi:id="_WysAhePqEeyfRrRnM3yZ2w" name="idracuna">
+      <modelElement href="ElektricnaMreza.uml#_WuW6IOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_WysAhuPqEeyfRrRnM3yZ2w" name="LegacyStyledElement">
+        <modelElement href="ElektricnaMreza.uml#_WuYIQOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_WysAh-PqEeyfRrRnM3yZ2w" name="Annotations">
+        <modelElement href="ElektricnaMreza.uml#_WuZWYOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_WysAiOPqEeyfRrRnM3yZ2w" label="-"/>
+      <cardinality xmi:id="_WysAiePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_WysAiuPqEeyfRrRnM3yZ2w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WysAi-PqEeyfRrRnM3yZ2w" name="id_domacinstva">
+      <modelElement href="ElektricnaMreza.uml#_WubLkOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_WysAjOPqEeyfRrRnM3yZ2w" name="Column">
+        <modelElement href="ElektricnaMreza.uml#_WuhSMOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_WysAjePqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_WysAjuPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_WysAj-PqEeyfRrRnM3yZ2w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WysAkOPqEeyfRrRnM3yZ2w" name="id_stanja">
+      <modelElement href="ElektricnaMreza.uml#_WuigUOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_WysAkePqEeyfRrRnM3yZ2w" name="Column">
+        <modelElement href="ElektricnaMreza.uml#_Wup1EOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_WysAkuPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_WysAk-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_WysAlOPqEeyfRrRnM3yZ2w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WysAlePqEeyfRrRnM3yZ2w" name="vreme_izdavanja">
+      <modelElement href="ElektricnaMreza.uml#_WuqcIOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_WysAluPqEeyfRrRnM3yZ2w" name="Column">
+        <modelElement href="ElektricnaMreza.uml#_WuwiwOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_WysAl-PqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_WysAmOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_WysAmePqEeyfRrRnM3yZ2w" name="Date">
+        <modelElement href="ElektricnaMreza.uml#_WtySYOPqEeyfRrRnM3yZ2w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WysAmuPqEeyfRrRnM3yZ2w" name="rok_za_placanje">
+      <modelElement href="ElektricnaMreza.uml#_Wu2CUOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_WysAm-PqEeyfRrRnM3yZ2w" name="Column">
+        <modelElement href="ElektricnaMreza.uml#_Wu7h4OPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_WysAnOPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_WysAnePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_WysAnuPqEeyfRrRnM3yZ2w" name="Date">
+        <modelElement href="ElektricnaMreza.uml#_WtySYOPqEeyfRrRnM3yZ2w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WysAn-PqEeyfRrRnM3yZ2w" name="visaTarifa">
+      <modelElement href="ElektricnaMreza.uml#_Wu9XEOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_WysAoOPqEeyfRrRnM3yZ2w" name="Column">
+        <modelElement href="ElektricnaMreza.uml#_WvCPkOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_WysAoePqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_WysAouPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_WysAo-PqEeyfRrRnM3yZ2w" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WysApOPqEeyfRrRnM3yZ2w" name="nizaTarifa">
+      <modelElement href="ElektricnaMreza.uml#_WvDdsOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_WysApePqEeyfRrRnM3yZ2w" name="Column">
+        <modelElement href="ElektricnaMreza.uml#_WvKycOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_WysApuPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_WysAp-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_WysAqOPqEeyfRrRnM3yZ2w" name="double">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_WysAqePqEeyfRrRnM3yZ2w" name="mesto_izdavanja">
+      <modelElement href="ElektricnaMreza.uml#_WvMnoOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_WysAquPqEeyfRrRnM3yZ2w" name="Column">
+        <modelElement href="ElektricnaMreza.uml#_WvTVUOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_WysAq-PqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_WysArOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_WysArePqEeyfRrRnM3yZ2w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_WysAruPqEeyfRrRnM3yZ2w" name="Racun">
+      <modelElement href="ElektricnaMreza.uml#_WtYpwOPqEeyfRrRnM3yZ2w"/>
+      <keywords xmi:id="_WysAr-PqEeyfRrRnM3yZ2w" keyword="create"/>
+      <stereotypes xmi:id="_WysAsOPqEeyfRrRnM3yZ2w" name="LegacyStyledElement">
+        <modelElement href="ElektricnaMreza.uml#_WtZ34ePqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_WysAsePqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_WysAsuPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WysAs-PqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_Wtae8OPqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_WysAtOPqEeyfRrRnM3yZ2w" name="Racun">
+          <modelElement href="ElektricnaMreza.uml#_WtNDkOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_WysAtePqEeyfRrRnM3yZ2w" name="getIdracuna">
+      <modelElement href="ElektricnaMreza.uml#_WtcUIOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_WysAtuPqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_Wtc7MePqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_WysAt-PqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_WysAuOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WysAuePqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_Wtc7MOPqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_WysAuuPqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_WysAu-PqEeyfRrRnM3yZ2w" name="setIdracuna">
+      <modelElement href="ElektricnaMreza.uml#_WtdiQOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_WysAvOPqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_WteJUOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_WysAvePqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_WysAvuPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_WysAv-PqEeyfRrRnM3yZ2w" name="idracuna">
+        <modelElement href="ElektricnaMreza.uml#_WtdiQePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_WysAwOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_WysAwePqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_WysAwuPqEeyfRrRnM3yZ2w" name="Racun">
+      <modelElement href="ElektricnaMreza.uml#_WuI3sOPqEeyfRrRnM3yZ2w"/>
+      <keywords xmi:id="_WysAw-PqEeyfRrRnM3yZ2w" keyword="create"/>
+      <stereotypes xmi:id="_WysAxOPqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_WuKs4OPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_WysAxePqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_WysAxuPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_WysAx-PqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_WuJex-PqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_WysAyOPqEeyfRrRnM3yZ2w" name="Racun">
+          <modelElement href="ElektricnaMreza.uml#_WtNDkOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_WysAyePqEeyfRrRnM3yZ2w" name="idRacuna">
+        <modelElement href="ElektricnaMreza.uml#_WuI3sePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_WysAyuPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_WysAy-PqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WysAzOPqEeyfRrRnM3yZ2w" name="idDom">
+        <modelElement href="ElektricnaMreza.uml#_WuI3suPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_WysAzePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_WysAzuPqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WysAz-PqEeyfRrRnM3yZ2w" name="idStanja">
+        <modelElement href="ElektricnaMreza.uml#_WuI3s-PqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_WysA0OPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_WysA0ePqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WysA0uPqEeyfRrRnM3yZ2w" name="vremeIzdavanja">
+        <modelElement href="ElektricnaMreza.uml#_WuJewOPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_WysA0-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_WysA1OPqEeyfRrRnM3yZ2w" name="Date">
+          <modelElement href="ElektricnaMreza.uml#_WtySYOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WysA1ePqEeyfRrRnM3yZ2w" name="rokZaPlacanje">
+        <modelElement href="ElektricnaMreza.uml#_WuJewePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_WysA1uPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_WysA1-PqEeyfRrRnM3yZ2w" name="Date">
+          <modelElement href="ElektricnaMreza.uml#_WtySYOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WysA2OPqEeyfRrRnM3yZ2w" name="visaTarifa">
+        <modelElement href="ElektricnaMreza.uml#_WuJewuPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_WysA2ePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_WysA2uPqEeyfRrRnM3yZ2w" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WysA2-PqEeyfRrRnM3yZ2w" name="nizaTarifa">
+        <modelElement href="ElektricnaMreza.uml#_WuJew-PqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_WysA3OPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_WysA3ePqEeyfRrRnM3yZ2w" name="double">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_WysA3uPqEeyfRrRnM3yZ2w" name="mesto">
+        <modelElement href="ElektricnaMreza.uml#_WuJexOPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_WysA3-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_WysA4OPqEeyfRrRnM3yZ2w" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_I1bmAOPrEeyfRrRnM3yZ2w" name="RacunController" associationsOut="_I1VfYOPrEeyfRrRnM3yZ2w _I1WGcOPrEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_Iy52cOPrEeyfRrRnM3yZ2w"/>
+    <visualProperties xmi:id="_I1bmAePrEeyfRrRnM3yZ2w" position="1134.0,492.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_I1bmAuPrEeyfRrRnM3yZ2w" name="LegacyStyledElement">
+      <modelElement href="ElektricnaMreza.uml#_Iy6dgOPrEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_I1bmA-PrEeyfRrRnM3yZ2w" name="Annotations">
+      <modelElement href="ElektricnaMreza.uml#_Iy8SsOPrEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <visibility xmi:id="_I1bmBOPrEeyfRrRnM3yZ2w" label="+"/>
+    <attributes xmi:id="_I1bmBePrEeyfRrRnM3yZ2w" defaultValue="0" name="id">
+      <modelElement href="ElektricnaMreza.uml#_IzGDsOPrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_I1bmBuPrEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_IzHR0OPrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_I1bmB-PrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_I1bmCOPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_I1bmCePrEeyfRrRnM3yZ2w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_I1bmCuPrEeyfRrRnM3yZ2w" defaultValue="new Racun()" name="racun">
+      <modelElement href="ElektricnaMreza.uml#_IzHR0ePrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_I1bmC-PrEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_IzHR0-PrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_I1bmDOPrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_I1bmDePrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_I1bmDuPrEeyfRrRnM3yZ2w" name="Racun">
+        <modelElement href="ElektricnaMreza.uml#_WtNDkOPqEeyfRrRnM3yZ2w"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_I1bmD-PrEeyfRrRnM3yZ2w" defaultValue="0" name="sid">
+      <modelElement href="ElektricnaMreza.uml#_IzHR1OPrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_I1bmEOPrEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_IzH44OPrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_I1bmEePrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_I1bmEuPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_I1bmE-PrEeyfRrRnM3yZ2w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_I1bmFOPrEeyfRrRnM3yZ2w" defaultValue="&quot;&quot;" name="vremeIzdavanja">
+      <modelElement href="ElektricnaMreza.uml#_IzH44ePrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_I1bmFePrEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_IzIf8ePrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_I1bmFuPrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_I1bmF-PrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_I1bmGOPrEeyfRrRnM3yZ2w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_I1bmGePrEeyfRrRnM3yZ2w" defaultValue="&quot;&quot;" name="rokZaPlacanje">
+      <modelElement href="ElektricnaMreza.uml#_IzJHAOPrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_I1bmGuPrEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_IzJHAuPrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_I1bmG-PrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_I1bmHOPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_I1bmHePrEeyfRrRnM3yZ2w" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_I1bmHuPrEeyfRrRnM3yZ2w" defaultValue="0" name="idstanja">
+      <modelElement href="ElektricnaMreza.uml#_IzJHA-PrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_I1cNEOPrEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_IzJuEOPrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_I1cNEePrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_I1cNEuPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_I1cNE-PrEeyfRrRnM3yZ2w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_I1cNFOPrEeyfRrRnM3yZ2w" defaultValue="0" name="iddomacinstva">
+      <modelElement href="ElektricnaMreza.uml#_IzJuEePrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_I1cNFePrEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_IzJuE-PrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_I1cNFuPrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_I1cNF-PrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_I1cNGOPrEeyfRrRnM3yZ2w" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_I1cNGePrEeyfRrRnM3yZ2w" name="service">
+      <modelElement href="ElektricnaMreza.uml#_IzJuFOPrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_I1cNGuPrEeyfRrRnM3yZ2w" name="LegacyStyledElement">
+        <modelElement href="ElektricnaMreza.uml#_IzKVIOPrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <stereotypes xmi:id="_I1cNG-PrEeyfRrRnM3yZ2w" name="Annotations">
+        <modelElement href="ElektricnaMreza.uml#_IzK8MOPrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_I1cNHOPrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_I1cNHePrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_I1cNHuPrEeyfRrRnM3yZ2w" name="RacunService">
+        <modelElement href="ElektricnaMreza.uml#_wrt0AOPqEeyfRrRnM3yZ2w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_I1cNH-PrEeyfRrRnM3yZ2w" name="vidiIznosRacuna">
+      <modelElement href="ElektricnaMreza.uml#_Iy7EkOPrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_I1cNIOPrEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_Iy7roOPrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_I1cNIePrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_I1cNIuPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_I1cNI-PrEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_Iy7Ek-PrEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_I1cNJOPrEeyfRrRnM3yZ2w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_I1cNJePrEeyfRrRnM3yZ2w" name="iddomacinstva">
+        <modelElement href="ElektricnaMreza.uml#_Iy7EkePrEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_I1cNJuPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_I1cNJ-PrEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_I1cNKOPrEeyfRrRnM3yZ2w" name="idstanja">
+        <modelElement href="ElektricnaMreza.uml#_Iy7EkuPrEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_I1cNKePrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_I1cNKuPrEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_I1cNK-PrEeyfRrRnM3yZ2w" name="pregledRacuna">
+      <modelElement href="ElektricnaMreza.uml#_Iy7roePrEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_I1cNLOPrEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_Iy7ro-PrEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_I1cNLePrEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_I1cNLuPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_I1cNL-PrEeyfRrRnM3yZ2w" name="id">
+        <modelElement href="ElektricnaMreza.uml#_Iy7rouPrEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_I1cNMOPrEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_I1cNMePrEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_wteukOPqEeyfRrRnM3yZ2w" name="RacunService" associationsIn="_I1WGcOPrEeyfRrRnM3yZ2w" subclassedBy="_1h9xQOPqEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_wrt0AOPqEeyfRrRnM3yZ2w"/>
+    <visualProperties xmi:id="_wteukePqEeyfRrRnM3yZ2w" position="1162.0,799.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_wteukuPqEeyfRrRnM3yZ2w" label="+"/>
+    <operations xmi:id="_wteuk-PqEeyfRrRnM3yZ2w" name="vidiIznosRacuna">
+      <modelElement href="ElektricnaMreza.uml#_wrvCIOPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_wteulOPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_wteulePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_wteuluPqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_wrvpMOPqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_wteul-PqEeyfRrRnM3yZ2w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_wteumOPqEeyfRrRnM3yZ2w" name="idRacuna">
+        <modelElement href="ElektricnaMreza.uml#_wrvCIePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_wteumePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_wteumuPqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_wteum-PqEeyfRrRnM3yZ2w" name="idStanja">
+        <modelElement href="ElektricnaMreza.uml#_wrvCIuPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_wteunOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_wteunePqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_wteunuPqEeyfRrRnM3yZ2w" name="pregledRacuna">
+      <modelElement href="ElektricnaMreza.uml#_wrwQQOPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_wteun-PqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_wteuoOPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_wteuoePqEeyfRrRnM3yZ2w" name="idRacuna">
+        <modelElement href="ElektricnaMreza.uml#_wrwQQePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_wteuouPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_wteuo-PqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_1iCCsOPqEeyfRrRnM3yZ2w" name="RacunServiceImpl" associationsOut="_1h-YUOPqEeyfRrRnM3yZ2w" generalizations="_1h9xQOPqEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_1fnn4OPqEeyfRrRnM3yZ2w"/>
+    <visualProperties xmi:id="_1iCCsePqEeyfRrRnM3yZ2w" position="1153.0,966.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_1iCCsuPqEeyfRrRnM3yZ2w" name="LegacyStyledElement">
+      <modelElement href="ElektricnaMreza.uml#_1foO8OPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_1iCCs-PqEeyfRrRnM3yZ2w" name="Annotations">
+      <modelElement href="ElektricnaMreza.uml#_1frSQuPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <visibility xmi:id="_1iCCtOPqEeyfRrRnM3yZ2w" label="+"/>
+    <attributes xmi:id="_1iCCtePqEeyfRrRnM3yZ2w" name="em">
+      <modelElement href="ElektricnaMreza.uml#_1f1qUOPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_1iCCtuPqEeyfRrRnM3yZ2w" label="-"/>
+      <cardinality xmi:id="_1iCCt-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_1iCCuOPqEeyfRrRnM3yZ2w" name="EntityManager">
+        <modelElement href="ElektricnaMreza.uml#_0TImoePqEeyfRrRnM3yZ2w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_1iCCuePqEeyfRrRnM3yZ2w" name="RacunServiceImpl">
+      <modelElement href="ElektricnaMreza.uml#_1fo2AOPqEeyfRrRnM3yZ2w"/>
+      <keywords xmi:id="_1iCCuuPqEeyfRrRnM3yZ2w" keyword="create"/>
+      <stereotypes xmi:id="_1iCCu-PqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_1fpdEOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_1iCCvOPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_1iCCvePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1iCCvuPqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_1fo2A-PqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_1iCCv-PqEeyfRrRnM3yZ2w" name="RacunServiceImpl">
+          <modelElement href="ElektricnaMreza.uml#_1fnn4OPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_1iCCwOPqEeyfRrRnM3yZ2w" name="vidiIznosRacuna">
+      <modelElement href="ElektricnaMreza.uml#_1fpdEePqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_1iCCwePqEeyfRrRnM3yZ2w" name="Annotations">
+        <modelElement href="ElektricnaMreza.uml#_1fqEIePqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_1iCCwuPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_1iCCw-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_1iCCxOPqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_1fqEIOPqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_1iCCxePqEeyfRrRnM3yZ2w" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_1iCCxuPqEeyfRrRnM3yZ2w" name="idRacuna">
+        <modelElement href="ElektricnaMreza.uml#_1fpdEuPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_1iCCx-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_1iCCyOPqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_1iCCyePqEeyfRrRnM3yZ2w" name="idStanja">
+        <modelElement href="ElektricnaMreza.uml#_1fpdE-PqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_1iCCyuPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_1iCCy-PqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_1iCCzOPqEeyfRrRnM3yZ2w" name="pregledRacuna">
+      <modelElement href="ElektricnaMreza.uml#_1fqrMOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_1iCCzePqEeyfRrRnM3yZ2w" name="Annotations">
+        <modelElement href="ElektricnaMreza.uml#_1frSQOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_1iCCzuPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_1iCCz-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_1iCC0OPqEeyfRrRnM3yZ2w" name="idRacuna">
+        <modelElement href="ElektricnaMreza.uml#_1fqrMePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_1iCC0ePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_1iCC0uPqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_xPxjUOPqEeyfRrRnM3yZ2w" name="StanjeService" associationsIn="_EP4-QOPrEeyfRrRnM3yZ2w" subclassedBy="_2hTuYOPqEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_xOP5UOPqEeyfRrRnM3yZ2w"/>
+    <visualProperties xmi:id="_xPxjUePqEeyfRrRnM3yZ2w" position="368.0,695.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_xPxjUuPqEeyfRrRnM3yZ2w" label="+"/>
+    <operations xmi:id="_xPxjU-PqEeyfRrRnM3yZ2w" name="vratiKolPotroseneEnergijeUVisojTarifi">
+      <modelElement href="ElektricnaMreza.uml#_xOQgYOPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_xPxjVOPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_xPxjVePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xPxjVuPqEeyfRrRnM3yZ2w" name="id">
+        <modelElement href="ElektricnaMreza.uml#_xORHcOPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_xPxjV-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_xPxjWOPqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xPxjWePqEeyfRrRnM3yZ2w" name="vratiKolPotroseneEnergijeUNizojTarifi">
+      <modelElement href="ElektricnaMreza.uml#_xORugOPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_xPxjWuPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_xPxjW-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xPxjXOPqEeyfRrRnM3yZ2w" name="id">
+        <modelElement href="ElektricnaMreza.uml#_xORugePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_xPxjXePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_xPxjXuPqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_xPxjX-PqEeyfRrRnM3yZ2w" name="saveStanje">
+      <modelElement href="ElektricnaMreza.uml#_xOUx0OPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_xPxjYOPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_xPxjYePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_xPxjYuPqEeyfRrRnM3yZ2w" name="stanje">
+        <modelElement href="ElektricnaMreza.uml#_xOUx0ePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_xPxjY-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_xPxjZOPqEeyfRrRnM3yZ2w" name="Stanje">
+          <modelElement href="ElektricnaMreza.uml#_r4umIOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_2hYm4uPqEeyfRrRnM3yZ2w" name="StanjeServiceImpl" associationsOut="_2hUVcOPqEeyfRrRnM3yZ2w" generalizations="_2hTuYOPqEeyfRrRnM3yZ2w">
+    <modelElement href="ElektricnaMreza.uml#_2egSAOPqEeyfRrRnM3yZ2w"/>
+    <visualProperties xmi:id="_2hYm4-PqEeyfRrRnM3yZ2w" position="360.0,903.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_2hYm5OPqEeyfRrRnM3yZ2w" name="LegacyStyledElement">
+      <modelElement href="ElektricnaMreza.uml#_2eg5EOPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <stereotypes xmi:id="_2hYm5ePqEeyfRrRnM3yZ2w" name="Annotations">
+      <modelElement href="ElektricnaMreza.uml#_2ejVUuPqEeyfRrRnM3yZ2w"/>
+    </stereotypes>
+    <visibility xmi:id="_2hYm5uPqEeyfRrRnM3yZ2w" label="+"/>
+    <attributes xmi:id="_2hYm5-PqEeyfRrRnM3yZ2w" name="em">
+      <modelElement href="ElektricnaMreza.uml#_2e9lAOPqEeyfRrRnM3yZ2w"/>
+      <visibility xmi:id="_2hYm6OPqEeyfRrRnM3yZ2w" label="-"/>
+      <cardinality xmi:id="_2hYm6ePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <type xmi:id="_2hYm6uPqEeyfRrRnM3yZ2w" name="EntityManager">
+        <modelElement href="ElektricnaMreza.uml#_0TImoePqEeyfRrRnM3yZ2w"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_2hYm6-PqEeyfRrRnM3yZ2w" name="StanjeServiceImpl">
+      <modelElement href="ElektricnaMreza.uml#_2ehgIOPqEeyfRrRnM3yZ2w"/>
+      <keywords xmi:id="_2hYm7OPqEeyfRrRnM3yZ2w" keyword="create"/>
+      <stereotypes xmi:id="_2hYm7ePqEeyfRrRnM3yZ2w" name="StyledElement">
+        <modelElement href="ElektricnaMreza.uml#_2ehgJOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_2hYm7uPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_2hYm7-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_2hYm8OPqEeyfRrRnM3yZ2w">
+        <modelElement href="ElektricnaMreza.uml#_2ehgI-PqEeyfRrRnM3yZ2w"/>
+        <type xmi:id="_2hYm8ePqEeyfRrRnM3yZ2w" name="StanjeServiceImpl">
+          <modelElement href="ElektricnaMreza.uml#_2egSAOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_2hYm8uPqEeyfRrRnM3yZ2w" name="vratiKolPotroseneEnergijeUVisojTarifi">
+      <modelElement href="ElektricnaMreza.uml#_2eiHMOPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_2hYm8-PqEeyfRrRnM3yZ2w" name="Annotations">
+        <modelElement href="ElektricnaMreza.uml#_2eiHMuPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_2hYm9OPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_2hYm9ePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_2hYm9uPqEeyfRrRnM3yZ2w" name="id">
+        <modelElement href="ElektricnaMreza.uml#_2eiHMePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_2hYm9-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_2hYm-OPqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2hYm-ePqEeyfRrRnM3yZ2w" name="vratiKolPotroseneEnergijeUNizojTarifi">
+      <modelElement href="ElektricnaMreza.uml#_2eiuQePqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_2hYm-uPqEeyfRrRnM3yZ2w" name="Annotations">
+        <modelElement href="ElektricnaMreza.uml#_2ejVUOPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_2hYm--PqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_2hYm_OPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_2hYm_ePqEeyfRrRnM3yZ2w" name="id">
+        <modelElement href="ElektricnaMreza.uml#_2eiuQuPqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_2hYm_uPqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_2hYm_-PqEeyfRrRnM3yZ2w" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_2hYnAOPqEeyfRrRnM3yZ2w" name="saveStanje">
+      <modelElement href="ElektricnaMreza.uml#_2e7v0OPqEeyfRrRnM3yZ2w"/>
+      <stereotypes xmi:id="_2hYnAePqEeyfRrRnM3yZ2w" name="Annotations">
+        <modelElement href="ElektricnaMreza.uml#_2e8W4OPqEeyfRrRnM3yZ2w"/>
+      </stereotypes>
+      <visibility xmi:id="_2hYnAuPqEeyfRrRnM3yZ2w" label="+"/>
+      <cardinality xmi:id="_2hYnA-PqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+      <parameters xmi:id="_2hYnBOPqEeyfRrRnM3yZ2w" name="stanje">
+        <modelElement href="ElektricnaMreza.uml#_2e7v0ePqEeyfRrRnM3yZ2w"/>
+        <cardinality xmi:id="_2hYnBePqEeyfRrRnM3yZ2w" label="1" max="1" min="1"/>
+        <type xmi:id="_2hYnBuPqEeyfRrRnM3yZ2w" name="Stanje">
+          <modelElement href="ElektricnaMreza.uml#_r4umIOPqEeyfRrRnM3yZ2w"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

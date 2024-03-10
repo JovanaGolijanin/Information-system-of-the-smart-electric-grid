@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_LriigKo6Eey4SrfOF3FWAg" name="RegistracijaSekvencijalniDijagram">
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_LsdIgKo6Eey4SrfOF3FWAg">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_LryaIKo6Eey4SrfOF3FWAg" name="Registracija">
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_XN81wKo6Eey4SrfOF3FWAg" name="Vlasnik domaćinstva" coveredBy="_mFmmgKo6Eey4SrfOF3FWAg _mGD5gKo6Eey4SrfOF3FWAg _weOnMKo6Eey4SrfOF3FWAg _we1rMKo6Eey4SrfOF3FWAg _0PKiMao6Eey4SrfOF3FWAg _0Pq4gKo6Eey4SrfOF3FWAg _S2bmcao7Eey4SrfOF3FWAg _mGAPIKo6Eey4SrfOF3FWAg _wewysKo6Eey4SrfOF3FWAg _0PmnEKo6Eey4SrfOF3FWAg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_ZLKwYKo6Eey4SrfOF3FWAg" name="Radnik na šalteru" coveredBy="_mFl_cKo6Eey4SrfOF3FWAg _mGEgkKo6Eey4SrfOF3FWAg _weOAIKo6Eey4SrfOF3FWAg _we2SQKo6Eey4SrfOF3FWAg _0PKiMKo6Eey4SrfOF3FWAg _0PrfkKo6Eey4SrfOF3FWAg _QX2rMKo7Eey4SrfOF3FWAg _zcOpYKo6Eey4SrfOF3FWAg _vkx2sKo6Eey4SrfOF3FWAg _ktTW0Ko6Eey4SrfOF3FWAg"/>
+    <lifeline xmi:type="uml:Lifeline" xmi:id="_A6nhIKo7Eey4SrfOF3FWAg" name="Baza podataka u distribuciji" coveredBy="_QX2rMao7Eey4SrfOF3FWAg _S2bmcKo7Eey4SrfOF3FWAg _KlDmIKo7Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mFl_cKo6Eey4SrfOF3FWAg" name="Message6SendEvent" covered="_ZLKwYKo6Eey4SrfOF3FWAg" message="_mFlYYKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_ktTW0Ko6Eey4SrfOF3FWAg" name="ActionExecutionSpecification6" covered="_ZLKwYKo6Eey4SrfOF3FWAg" finish="_mGEgkKo6Eey4SrfOF3FWAg" start="_mFl_cKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mFmmgKo6Eey4SrfOF3FWAg" name="Message6ReceiveEvent" covered="_XN81wKo6Eey4SrfOF3FWAg" message="_mFlYYKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_mGAPIKo6Eey4SrfOF3FWAg" name="BehaviorExecutionSpecification8" covered="_XN81wKo6Eey4SrfOF3FWAg" finish="_mGD5gKo6Eey4SrfOF3FWAg" start="_mFmmgKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mGD5gKo6Eey4SrfOF3FWAg" name="Message10SendEvent" covered="_XN81wKo6Eey4SrfOF3FWAg" message="_mGDScKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_mGEgkKo6Eey4SrfOF3FWAg" name="Message10ReceiveEvent" covered="_ZLKwYKo6Eey4SrfOF3FWAg" message="_mGDScKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_weOAIKo6Eey4SrfOF3FWAg" name="Message14SendEvent" covered="_ZLKwYKo6Eey4SrfOF3FWAg" message="_weNZEKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_vkx2sKo6Eey4SrfOF3FWAg" name="ActionExecutionSpecification11" covered="_ZLKwYKo6Eey4SrfOF3FWAg" finish="_we2SQKo6Eey4SrfOF3FWAg" start="_weOAIKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_weOnMKo6Eey4SrfOF3FWAg" name="Message14ReceiveEvent" covered="_XN81wKo6Eey4SrfOF3FWAg" message="_weNZEKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_wewysKo6Eey4SrfOF3FWAg" name="BehaviorExecutionSpecification16" covered="_XN81wKo6Eey4SrfOF3FWAg" finish="_we1rMKo6Eey4SrfOF3FWAg" start="_weOnMKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_we1rMKo6Eey4SrfOF3FWAg" name="Message18SendEvent" covered="_XN81wKo6Eey4SrfOF3FWAg" message="_we1EIKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_we2SQKo6Eey4SrfOF3FWAg" name="Message18ReceiveEvent" covered="_ZLKwYKo6Eey4SrfOF3FWAg" message="_we1EIKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0PKiMKo6Eey4SrfOF3FWAg" name="Message22SendEvent" covered="_ZLKwYKo6Eey4SrfOF3FWAg" message="_0PJUEKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_zcOpYKo6Eey4SrfOF3FWAg" name="ActionExecutionSpecification19" covered="_ZLKwYKo6Eey4SrfOF3FWAg" finish="_0PrfkKo6Eey4SrfOF3FWAg" start="_0PKiMKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0PKiMao6Eey4SrfOF3FWAg" name="Message22ReceiveEvent" covered="_XN81wKo6Eey4SrfOF3FWAg" message="_0PJUEKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_0PmnEKo6Eey4SrfOF3FWAg" name="BehaviorExecutionSpecification24" covered="_XN81wKo6Eey4SrfOF3FWAg" finish="_0Pq4gKo6Eey4SrfOF3FWAg" start="_0PKiMao6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0Pq4gKo6Eey4SrfOF3FWAg" name="Message26SendEvent" covered="_XN81wKo6Eey4SrfOF3FWAg" message="_0PqRcKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_0PrfkKo6Eey4SrfOF3FWAg" name="Message26ReceiveEvent" covered="_ZLKwYKo6Eey4SrfOF3FWAg" message="_0PqRcKo6Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QX2rMKo7Eey4SrfOF3FWAg" name="Message31SendEvent" covered="_ZLKwYKo6Eey4SrfOF3FWAg" message="_QX2EIKo7Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_QX2rMao7Eey4SrfOF3FWAg" name="Message31ReceiveEvent" covered="_A6nhIKo7Eey4SrfOF3FWAg" message="_QX2EIKo7Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:BehaviorExecutionSpecification" xmi:id="_KlDmIKo7Eey4SrfOF3FWAg" name="BehaviorExecutionSpecification28" covered="_A6nhIKo7Eey4SrfOF3FWAg" finish="_S2bmcKo7Eey4SrfOF3FWAg" start="_QX2rMao7Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_S2bmcKo7Eey4SrfOF3FWAg" name="Message33SendEvent" covered="_A6nhIKo7Eey4SrfOF3FWAg" message="_S2a_YKo7Eey4SrfOF3FWAg"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_S2bmcao7Eey4SrfOF3FWAg" name="Message33ReceiveEvent" covered="_XN81wKo6Eey4SrfOF3FWAg" message="_S2a_YKo7Eey4SrfOF3FWAg"/>
+    <message xmi:type="uml:Message" xmi:id="_mFlYYKo6Eey4SrfOF3FWAg" name="Ime?" receiveEvent="_mFmmgKo6Eey4SrfOF3FWAg" sendEvent="_mFl_cKo6Eey4SrfOF3FWAg"/>
+    <message xmi:type="uml:Message" xmi:id="_mGDScKo6Eey4SrfOF3FWAg" name="Ime vlasnika" messageSort="reply" receiveEvent="_mGEgkKo6Eey4SrfOF3FWAg" sendEvent="_mGD5gKo6Eey4SrfOF3FWAg"/>
+    <message xmi:type="uml:Message" xmi:id="_weNZEKo6Eey4SrfOF3FWAg" name="Prezime?" receiveEvent="_weOnMKo6Eey4SrfOF3FWAg" sendEvent="_weOAIKo6Eey4SrfOF3FWAg"/>
+    <message xmi:type="uml:Message" xmi:id="_we1EIKo6Eey4SrfOF3FWAg" name="Prezime vlasnika" messageSort="reply" receiveEvent="_we2SQKo6Eey4SrfOF3FWAg" sendEvent="_we1rMKo6Eey4SrfOF3FWAg"/>
+    <message xmi:type="uml:Message" xmi:id="_0PJUEKo6Eey4SrfOF3FWAg" name="Adresa?" receiveEvent="_0PKiMao6Eey4SrfOF3FWAg" sendEvent="_0PKiMKo6Eey4SrfOF3FWAg"/>
+    <message xmi:type="uml:Message" xmi:id="_0PqRcKo6Eey4SrfOF3FWAg" name="Adresa vlasnika" messageSort="reply" receiveEvent="_0PrfkKo6Eey4SrfOF3FWAg" sendEvent="_0Pq4gKo6Eey4SrfOF3FWAg"/>
+    <message xmi:type="uml:Message" xmi:id="_QX2EIKo7Eey4SrfOF3FWAg" name="unosi prikupljene podatke" receiveEvent="_QX2rMao7Eey4SrfOF3FWAg" sendEvent="_QX2rMKo7Eey4SrfOF3FWAg"/>
+    <message xmi:type="uml:Message" xmi:id="_S2a_YKo7Eey4SrfOF3FWAg" name="domaćinstvo je registrovano" messageSort="reply" receiveEvent="_S2bmcao7Eey4SrfOF3FWAg" sendEvent="_S2bmcKo7Eey4SrfOF3FWAg"/>
+  </packagedElement>
+</uml:Model>

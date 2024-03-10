@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_j7xDMKqdEeyhO6b4iLLf3g" name="DijagramKlasa">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_2wHBIKxMEeyLs-2WbqzlMA" annotatedElement="_PLPskKxIEeyLs-2WbqzlMA">
+    <body>ED broj i broj brojila se nalaze na računu vlasnika&#xD;
+</body>
+  </ownedComment>
+  <packageImport xmi:type="uml:PackageImport" xmi:id="_j-OhUKqdEeyhO6b4iLLf3g">
+    <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+  </packageImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_lmGeEKqdEeyhO6b4iLLf3g" name="Domaćinstvo">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_H2Sw0KqeEeyhO6b4iLLf3g" name="ImeVlasnika" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_JZg3EKqeEeyhO6b4iLLf3g" name="PrezimeVlasnika" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_LaJ5IKqeEeyhO6b4iLLf3g" name="Adresa" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_r4lL8KqhEeyhO6b4iLLf3g" name="ProsečnaPotrošnja" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_sqei8KqhEeyhO6b4iLLf3g" name="BrojNeplaćenihRačuna" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_UfX5sKt5EeyKH5KVDKweJg" name="dajKeš"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VA_ZAKt5EeyKH5KVDKweJg" name="dajKarticu"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WPyHYKt5EeyKH5KVDKweJg" name="uzmiPriznanicu"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_oTLWMKuLEeyKH5KVDKweJg" name="otvoriPapirniRačun"/>
+    <nestedClassifier xmi:type="uml:AssociationClass" xmi:id="_7Q3mwKqwEeyU1pkdbiUw3Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_BtvhYKqiEeyhO6b4iLLf3g" name="Račun">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NhFMkKqiEeyhO6b4iLLf3g" name="KoličinaPotrošeneElektričneEnergije" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OBFiUKqiEeyhO6b4iLLf3g" name="IznosZaPlaćanje" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_Odz6kKqiEeyhO6b4iLLf3g" name="PlaćenIliNe" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_b35WsKuKEeyKH5KVDKweJg" name="ažuriranjeProsečnePotrošnje" isAbstract="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_dPfbwKuKEeyKH5KVDKweJg" name="povećajBrojPlaćenihRačuna" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_kosBUKqiEeyhO6b4iLLf3g" name="Distribucija">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Gkqv4KqpEeyhO6b4iLLf3g" name="Registracija">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_y_DlwKqpEeyU1pkdbiUw3Q" name="Ime" effect="create">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_2M6o4KqpEeyU1pkdbiUw3Q" name="Prezime">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_4kK0IKqpEeyU1pkdbiUw3Q" name="Adresa">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_4SIKYKuEEeyKH5KVDKweJg" name="MehanizamZaOčitavanje">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_hv4SEKqrEeyU1pkdbiUw3Q" name="ručnoOčitajPodatkeOPotrošnji"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ma_7UKuFEeyKH5KVDKweJg" name="Računar">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_QomeoKuIEeyKH5KVDKweJg" name="onlineRegistracija"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_c8n1AKuIEeyKH5KVDKweJg" name="onilneIsporukaRačuna"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_n1m4IKuFEeyKH5KVDKweJg" name="Laptop">
+    <generalization xmi:type="uml:Generalization" xmi:id="_x3ZvYKuUEeyKH5KVDKweJg" general="_ma_7UKuFEeyKH5KVDKweJg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9boTcKuHEeyKH5KVDKweJg" name="pristupWebSajtu"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_vJ1LMKqqEeyU1pkdbiUw3Q" name="onlineRegistracijaPrekoWeb-a"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_L4iLUKqrEeyU1pkdbiUw3Q" name="onlinePlaćanjePrekoWeb-a"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_se7zsKuFEeyKH5KVDKweJg" name="MobilniTelefon">
+    <generalization xmi:type="uml:Generalization" xmi:id="_0PRlsKuUEeyKH5KVDKweJg" general="_ma_7UKuFEeyKH5KVDKweJg"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="__-KhoKuHEeyKH5KVDKweJg" name="pristupMobilnojApp"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_kX55sKqqEeyU1pkdbiUw3Q" name="onlineRegistracijaPrekoMobilnog"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_Ho-aoKqrEeyU1pkdbiUw3Q" name="onlinePlaćanjePrekoMobilnog"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3ZIQYKuFEeyKH5KVDKweJg" name="SandučeZaRačun">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_xgUQoKuKEeyKH5KVDKweJg" name="isporučiPapirniRačun"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ctpIYKuJEeyKH5KVDKweJg" name="Šalter">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_7aUFYKqqEeyU1pkdbiUw3Q" name="naplatiRačun"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_VGqokKuMEeyKH5KVDKweJg" name="izdajPriznanicu"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_iGyP8KuMEeyKH5KVDKweJg" name="uzmiPodatkeODomaćinstvu"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_xdFL4KuJEeyKH5KVDKweJg" name="SajtDistibucije">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_oGA5YKuKEeyKH5KVDKweJg" name="onlineOčitavanjeSaPametnogBrojila" isAbstract="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_bOtIYKuNEeyKH5KVDKweJg" name="logovanje">
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bOtIYauNEeyKH5KVDKweJg" name="Ime">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bOtIYquNEeyKH5KVDKweJg" name="Prezime">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+      <ownedParameter xmi:type="uml:Parameter" xmi:id="_bOtIY6uNEeyKH5KVDKweJg" name="Adresa">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_b0NpMKuNEeyKH5KVDKweJg" name="ostaviPodatkeOTekućemRačunu" isAbstract="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_cUSQYKuNEeyKH5KVDKweJg" name="zahtevajPrebacivanjeSredstava" isAbstract="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_c1MlEKuNEeyKH5KVDKweJg" name="prebaciSredstva" isAbstract="true"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_iyC-AKuNEeyKH5KVDKweJg" name="ostaviPotadkeZaRegistraciju"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_1nOREKuJEeyKH5KVDKweJg" name="BazaPodataka">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_lIHm8KqwEeyU1pkdbiUw3Q" name="domaćinstva" visibility="private" type="_lmGeEKqdEeyhO6b4iLLf3g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9yrcMKqwEeyU1pkdbiUw3Q" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_ltrLEKqwEeyU1pkdbiUw3Q" name="računi" visibility="private" type="_BtvhYKqiEeyhO6b4iLLf3g">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ECGL0KqxEeyU1pkdbiUw3Q" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jn5IQKuKEeyKH5KVDKweJg" name="brojNeplaćenihRačuna">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_11yUsKuNEeyKH5KVDKweJg" name="Potrošnja">
+    <generalization xmi:type="uml:Generalization" xmi:id="_rn9xoKuUEeyKH5KVDKweJg" general="_BtvhYKqiEeyhO6b4iLLf3g"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4RW_QKuNEeyKH5KVDKweJg" name="plavaZona" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4RXmUKuNEeyKH5KVDKweJg" name="cenaDin/kWh" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4RXmUauNEeyKH5KVDKweJg" name="crvenaZona" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4RXmUquNEeyKH5KVDKweJg" name="obračunskaSnagaDin/kWh" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4RXmU6uNEeyKH5KVDKweJg" name="trošakJavnogSnabdevača" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4RXmVKuNEeyKH5KVDKweJg" name="zelenaZona" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_5GwWMKuNEeyKH5KVDKweJg" name="vratiCenu" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_91xDAKuNEeyKH5KVDKweJg" name="DnevnaPotrošnja">
+    <generalization xmi:type="uml:Generalization" xmi:id="_jo_I4KuUEeyKH5KVDKweJg" general="_11yUsKuNEeyKH5KVDKweJg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="__hI_sKuNEeyKH5KVDKweJg" name="dnevnaPotrošnja" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_AHyI8KuOEeyKH5KVDKweJg" name="vratiDnevnuPotrošnju" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_Bv4vMKuOEeyKH5KVDKweJg" name="MesečnaPotrošnja">
+    <generalization xmi:type="uml:Generalization" xmi:id="_izXIcKuUEeyKH5KVDKweJg" general="_11yUsKuNEeyKH5KVDKweJg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_DMTC0KuOEeyKH5KVDKweJg" name="mesečnaPotrošnja" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_DxHnIKuOEeyKH5KVDKweJg" name="vratiMesečnuPotrošnju" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_FMW2EKuOEeyKH5KVDKweJg" name="ProsečnaPotrošnja">
+    <generalization xmi:type="uml:Generalization" xmi:id="_hzmUkKuUEeyKH5KVDKweJg" general="_11yUsKuNEeyKH5KVDKweJg"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_G6mgkKuOEeyKH5KVDKweJg" name="prosečnaPotrošnja" isStatic="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_HfFGoKuOEeyKH5KVDKweJg" name="vratiProsečnuPotrošnju" isAbstract="true"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7nlsgKuTEeyKH5KVDKweJg" memberEnd="_7nmTkquTEeyKH5KVDKweJg _7nmTlauTEeyKH5KVDKweJg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7nmTkKuTEeyKH5KVDKweJg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7nmTkauTEeyKH5KVDKweJg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7nmTlauTEeyKH5KVDKweJg" name="domaćinstvo poseduje računar" type="_lmGeEKqdEeyhO6b4iLLf3g" association="_7nlsgKuTEeyKH5KVDKweJg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_7nmTkquTEeyKH5KVDKweJg" name="računar pripada domaćinstvu" type="_ma_7UKuFEeyKH5KVDKweJg" aggregation="composite" association="_7nlsgKuTEeyKH5KVDKweJg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_g6d3sKuVEeyKH5KVDKweJg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7nmTlKuTEeyKH5KVDKweJg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Dou4cKuUEeyKH5KVDKweJg" memberEnd="_DovfgquUEeyKH5KVDKweJg _DovfhauUEeyKH5KVDKweJg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DovfgKuUEeyKH5KVDKweJg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DovfgauUEeyKH5KVDKweJg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DovfhauUEeyKH5KVDKweJg" name="domaćinstvo" type="_lmGeEKqdEeyhO6b4iLLf3g" association="_Dou4cKuUEeyKH5KVDKweJg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_DovfgquUEeyKH5KVDKweJg" name="sandučezaračun" type="_3ZIQYKuFEeyKH5KVDKweJg" aggregation="composite" association="_Dou4cKuUEeyKH5KVDKweJg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Gomi4KuUEeyKH5KVDKweJg" memberEnd="_GonJ8KuUEeyKH5KVDKweJg _GonJ86uUEeyKH5KVDKweJg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Gomi4auUEeyKH5KVDKweJg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Gomi4quUEeyKH5KVDKweJg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GonJ86uUEeyKH5KVDKweJg" name="domaćinstvo" type="_lmGeEKqdEeyhO6b4iLLf3g" association="_Gomi4KuUEeyKH5KVDKweJg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_GonJ8KuUEeyKH5KVDKweJg" name="mehanizamzaočitavanje" type="_4SIKYKuEEeyKH5KVDKweJg" aggregation="composite" association="_Gomi4KuUEeyKH5KVDKweJg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_MzIygKuUEeyKH5KVDKweJg" memberEnd="_MzJZkquUEeyKH5KVDKweJg _MzJZlauUEeyKH5KVDKweJg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MzJZkKuUEeyKH5KVDKweJg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MzJZkauUEeyKH5KVDKweJg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MzJZlauUEeyKH5KVDKweJg" name="distribucija" type="_kosBUKqiEeyhO6b4iLLf3g" association="_MzIygKuUEeyKH5KVDKweJg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_MzJZkquUEeyKH5KVDKweJg" name="bazapodataka" type="_1nOREKuJEeyKH5KVDKweJg" aggregation="composite" association="_MzIygKuUEeyKH5KVDKweJg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Oj1UEKuUEeyKH5KVDKweJg" memberEnd="_Oj17IquUEeyKH5KVDKweJg _Oj17JauUEeyKH5KVDKweJg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Oj17IKuUEeyKH5KVDKweJg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Oj17IauUEeyKH5KVDKweJg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Oj17JauUEeyKH5KVDKweJg" name="distribucija" type="_kosBUKqiEeyhO6b4iLLf3g" association="_Oj1UEKuUEeyKH5KVDKweJg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Oj17IquUEeyKH5KVDKweJg" name="šalter" type="_ctpIYKuJEeyKH5KVDKweJg" aggregation="composite" association="_Oj1UEKuUEeyKH5KVDKweJg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_Oj17JKuUEeyKH5KVDKweJg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Qp1XQKuUEeyKH5KVDKweJg" memberEnd="_Qp3McauUEeyKH5KVDKweJg _Qp3zgauUEeyKH5KVDKweJg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Qp2lYKuUEeyKH5KVDKweJg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Qp3McKuUEeyKH5KVDKweJg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Qp3zgauUEeyKH5KVDKweJg" name="distribucija" type="_kosBUKqiEeyhO6b4iLLf3g" association="_Qp1XQKuUEeyKH5KVDKweJg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Qp3McauUEeyKH5KVDKweJg" name="sajtdistibucije" type="_xdFL4KuJEeyKH5KVDKweJg" aggregation="composite" association="_Qp1XQKuUEeyKH5KVDKweJg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_-gU3YKuXEeyKH5KVDKweJg" memberEnd="_-gWskquXEeyKH5KVDKweJg _-gXToKuXEeyKH5KVDKweJg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-gWskKuXEeyKH5KVDKweJg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-gWskauXEeyKH5KVDKweJg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-gXToKuXEeyKH5KVDKweJg" name="domaćinstvo" type="_lmGeEKqdEeyhO6b4iLLf3g" association="_-gU3YKuXEeyKH5KVDKweJg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_SJw8IKuYEeyKH5KVDKweJg" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_-gWskquXEeyKH5KVDKweJg" name="distribucija" type="_kosBUKqiEeyhO6b4iLLf3g" association="_-gU3YKuXEeyKH5KVDKweJg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-gWslKuXEeyKH5KVDKweJg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_Z6NZoKuYEeyKH5KVDKweJg" memberEnd="_Z6NZo6uYEeyKH5KVDKweJg _Z6OAsquYEeyKH5KVDKweJg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_Z6NZoauYEeyKH5KVDKweJg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Z6NZoquYEeyKH5KVDKweJg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z6OAsquYEeyKH5KVDKweJg" name="domaćinstvo" type="_lmGeEKqdEeyhO6b4iLLf3g" association="_Z6NZoKuYEeyKH5KVDKweJg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_Z6NZo6uYEeyKH5KVDKweJg" name="račun" type="_BtvhYKqiEeyhO6b4iLLf3g" association="_Z6NZoKuYEeyKH5KVDKweJg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iy__QKuYEeyKH5KVDKweJg" memberEnd="_izBNYauYEeyKH5KVDKweJg _izBNZKuYEeyKH5KVDKweJg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_izAmUKuYEeyKH5KVDKweJg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_izBNYKuYEeyKH5KVDKweJg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_izBNZKuYEeyKH5KVDKweJg" name="distribucija" type="_kosBUKqiEeyhO6b4iLLf3g" association="_iy__QKuYEeyKH5KVDKweJg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_izBNYauYEeyKH5KVDKweJg" name="račun" type="_BtvhYKqiEeyhO6b4iLLf3g" association="_iy__QKuYEeyKH5KVDKweJg">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_izBNY6uYEeyKH5KVDKweJg" value="*"/>
+    </ownedEnd>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_8U3ccKxHEeyLs-2WbqzlMA" name="Cilj: Mnogo korisnika aplikacije „Uvid u račun“">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_AvJkgKxKEeyLs-2WbqzlMA" name="ciljnaVrednost" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_anie0KxKEeyLs-2WbqzlMA" value="5000000"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_E4VncKxKEeyLs-2WbqzlMA" name="trenutnaVrednost">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_hdSOoKxKEeyLs-2WbqzlMA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_HNjyYKxKEeyLs-2WbqzlMA" name="jedinicaMerenja">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_5bRRwKxKEeyLs-2WbqzlMA" value="brojKorisnika"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_qzUJ4KxKEeyLs-2WbqzlMA" name="brojKorisnika">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_jscGcKxNEeyLs-2WbqzlMA" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_8y8iwKxLEeyLs-2WbqzlMA" name="opisCilja">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_K0wNcKxIEeyLs-2WbqzlMA" name="Mnogo registrovanih korisnika">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_skCEIKxLEeyLs-2WbqzlMA" name="trenutnaVrednost">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_skCEIaxLEeyLs-2WbqzlMA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_skD5UKxLEeyLs-2WbqzlMA" name="ciljnaVrednost" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_skD5UaxLEeyLs-2WbqzlMA" value="5000000"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BUy9UKxMEeyLs-2WbqzlMA" name="opisCilja">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_WYEGUKxNEeyLs-2WbqzlMA" name="jedinicaMerenja">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_WYEGUaxNEeyLs-2WbqzlMA" value="registrovaniKorisnici"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_YmY_EKxNEeyLs-2WbqzlMA" name="registrovaniKorisnici">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_GeQKcKxMEeyLs-2WbqzlMA" name="registracijaNaSajtu"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_JCELAKxMEeyLs-2WbqzlMA" name="unosLičnihPodataka"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_OeWNgKxMEeyLs-2WbqzlMA" name="popuniFormular"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_WPa9IKxMEeyLs-2WbqzlMA" name="dodajSliku"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_ZujWcKxMEeyLs-2WbqzlMA" name="slažemSeSaUslovimaKorišćenja"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_M0xkcKxIEeyLs-2WbqzlMA" name="Mnogo ulogovanih korisnika">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_s6bK4KxLEeyLs-2WbqzlMA" name="ciljnaVrednost" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_s6bK4axLEeyLs-2WbqzlMA" value="5000000"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_s6dAEKxLEeyLs-2WbqzlMA" name="trenutnaVrednost">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_s6dAEaxLEeyLs-2WbqzlMA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_BnrdEKxMEeyLs-2WbqzlMA" name="opisCilja">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2DFtoKxNEeyLs-2WbqzlMA" name="ulogovaniKorisnici">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_2DGUsKxNEeyLs-2WbqzlMA" name="jedinicaMerenja">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_2DGUsaxNEeyLs-2WbqzlMA" value="ulogovaniKorisnici"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_lcSI4KxMEeyLs-2WbqzlMA" name="logIn"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_oOfKwKxMEeyLs-2WbqzlMA" name="unesiEmail"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_pNbfQKxMEeyLs-2WbqzlMA" name="unesiŠifru"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PLPskKxIEeyLs-2WbqzlMA" name="Mnogo registrovanih brojila">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tZcCIKxLEeyLs-2WbqzlMA" name="trenutnaVrednost">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_tZcCIaxLEeyLs-2WbqzlMA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tZhhsKxLEeyLs-2WbqzlMA" name="ciljnaVrednost" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_tZhhsaxLEeyLs-2WbqzlMA" value="5000000"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CAHyQKxMEeyLs-2WbqzlMA" name="opisCilja">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_fZYgYKxOEeyLs-2WbqzlMA" name="registrovanaBrojila" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_h-eTUKxOEeyLs-2WbqzlMA" name="jedinicaMerenja">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_h-eTUaxOEeyLs-2WbqzlMA" value="registrovanaBrojila"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_wkMRcKxMEeyLs-2WbqzlMA" name="unesiEDBroj"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_yB0tEKxMEeyLs-2WbqzlMA" name="unesiBrojBrojila"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_CQ0EMKxNEeyLs-2WbqzlMA" name="registrujBrojilo"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_apB-gKxIEeyLs-2WbqzlMA" client="_8U3ccKxHEeyLs-2WbqzlMA" supplier="_K0wNcKxIEeyLs-2WbqzlMA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_cGroQKxIEeyLs-2WbqzlMA" client="_j7xDMKqdEeyhO6b4iLLf3g" supplier="_M0xkcKxIEeyLs-2WbqzlMA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hyGyoKxLEeyLs-2WbqzlMA" name="Mnogo pregledanih računa">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tr5EEKxLEeyLs-2WbqzlMA" name="brojPregledanihRačuna">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tr7gUKxLEeyLs-2WbqzlMA" name="jedinicaMerenja">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralString" xmi:id="_tr7gUaxLEeyLs-2WbqzlMA" value="brojPregledanihRačuna"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tr9VgKxLEeyLs-2WbqzlMA" name="ciljnaVrednost" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_tr9VgaxLEeyLs-2WbqzlMA" value="5000000"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tr-joKxLEeyLs-2WbqzlMA" name="trenutnaVrednost">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      <defaultValue xmi:type="uml:LiteralInteger" xmi:id="_tr-joaxLEeyLs-2WbqzlMA"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_CUm0gKxMEeyLs-2WbqzlMA" name="opisCilja">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_x0P5MKxOEeyLs-2WbqzlMA" name="pregledajRačun"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_2azNkKxOEeyLs-2WbqzlMA" name="odaberiMesec"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_5LvEIKxOEeyLs-2WbqzlMA" name="preuzmiPDF"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_6qsVcKxOEeyLs-2WbqzlMA" name="štampaj"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_9SPmgKxOEeyLs-2WbqzlMA" name="odaberiBrojilo"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_0cw68KxLEeyLs-2WbqzlMA" client="_8U3ccKxHEeyLs-2WbqzlMA" supplier="_PLPskKxIEeyLs-2WbqzlMA"/>
+  <packagedElement xmi:type="uml:Dependency" xmi:id="_1UE9cKxLEeyLs-2WbqzlMA" client="_8U3ccKxHEeyLs-2WbqzlMA" supplier="_hyGyoKxLEeyLs-2WbqzlMA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mSLHsKxPEeyLs-2WbqzlMA" memberEnd="_mSq28KxPEeyLs-2WbqzlMA _mSsFEaxPEeyLs-2WbqzlMA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mSPZIKxPEeyLs-2WbqzlMA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mSPZIaxPEeyLs-2WbqzlMA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mSsFEaxPEeyLs-2WbqzlMA" name="distribucija je vlasnik aplikacije " type="_kosBUKqiEeyhO6b4iLLf3g" association="_mSLHsKxPEeyLs-2WbqzlMA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_mSq28KxPEeyLs-2WbqzlMA" name="cilj: mnogo korisnika aplikacije „uvid u račun“" type="_8U3ccKxHEeyLs-2WbqzlMA" aggregation="composite" association="_mSLHsKxPEeyLs-2WbqzlMA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_ARUxUKxQEeyLs-2WbqzlMA" memberEnd="_ARWmgqxQEeyLs-2WbqzlMA _ARXNkKxQEeyLs-2WbqzlMA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ARWmgKxQEeyLs-2WbqzlMA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ARWmgaxQEeyLs-2WbqzlMA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ARXNkKxQEeyLs-2WbqzlMA" name="domaćinstvo" type="_lmGeEKqdEeyhO6b4iLLf3g" association="_ARUxUKxQEeyLs-2WbqzlMA">
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P8GoIKxQEeyLs-2WbqzlMA" value="*"/>
+    </ownedEnd>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_ARWmgqxQEeyLs-2WbqzlMA" name="cilj: mnogo korisnika aplikacije „uvid u račun“" type="_8U3ccKxHEeyLs-2WbqzlMA" association="_ARUxUKxQEeyLs-2WbqzlMA"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_vg4R4KqtEeyU1pkdbiUw3Q">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vg6HEKqtEeyU1pkdbiUw3Q" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>

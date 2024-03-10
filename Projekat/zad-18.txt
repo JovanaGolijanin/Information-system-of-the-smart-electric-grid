@@ -1,0 +1,4 @@
+1. Informacioni sistem pametne elektricne mreže. Cuvaju se podaci o domacinstvu: ime i prezime vlasnika, adresa, prosecna potrošnja i broj neplacenih racuna. Osim toga, cuvaju se informacije o racunima svakog meseca – kolicina potrošene elektricne energije, iznos koji treba platiti i da li je placen ili ne. Omoguciti mehanizam za ažuriranje prosecne potrošnje, brojanje neplacenih racuna i obracunavanje cene.
+
+
+Obrazac: Dekompozicija poslovnog cilja

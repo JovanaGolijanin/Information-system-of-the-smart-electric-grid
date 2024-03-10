@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.3/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_zBHf4KooEey4SrfOF3FWAg" type="PapyrusUMLSequenceDiagram" name="Sequence Diagram" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_zBHf4aooEey4SrfOF3FWAg" type="Interaction_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_zBHf4qooEey4SrfOF3FWAg" type="Interaction_NameLabel"/>
+    <children xmi:type="notation:BasicCompartment" xmi:id="_zBHf46ooEey4SrfOF3FWAg" type="Interaction_SubfragmentCompartment">
+      <children xmi:type="notation:Shape" xmi:id="_cIcMEKo1Eey4SrfOF3FWAg" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cIczIKo1Eey4SrfOF3FWAg" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:Shape" xmi:id="_gwOvMKo4Eey4SrfOF3FWAg" type="ActionExecutionSpecification_Shape">
+          <element xmi:type="uml:ActionExecutionSpecification" href="SekvencijalniDijagram.uml#_gwLE0Ko4Eey4SrfOF3FWAg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gwOvMao4Eey4SrfOF3FWAg" x="70" y="41" width="20" height="100"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="SekvencijalniDijagram.uml#_cIaW4Ko1Eey4SrfOF3FWAg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cIcMEao1Eey4SrfOF3FWAg" x="54" y="10" width="161" height="842"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_e3AEEKo1Eey4SrfOF3FWAg" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_e3AEEqo1Eey4SrfOF3FWAg" type="Lifeline_NameLabel"/>
+        <children xmi:type="notation:Shape" xmi:id="_vIHawKo4Eey4SrfOF3FWAg" type="ActionExecutionSpecification_Shape">
+          <element xmi:type="uml:ActionExecutionSpecification" href="SekvencijalniDijagram.uml#_vIDwYKo4Eey4SrfOF3FWAg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vIHawao4Eey4SrfOF3FWAg" x="60" y="241" width="20" height="100"/>
+        </children>
+        <children xmi:type="notation:Shape" xmi:id="_mbStMKo7Eey4SrfOF3FWAg" type="ActionExecutionSpecification_Shape">
+          <element xmi:type="uml:ActionExecutionSpecification" href="SekvencijalniDijagram.uml#_mZn5QKo7Eey4SrfOF3FWAg"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mbStMao7Eey4SrfOF3FWAg" x="60" y="641" width="20" height="100"/>
+        </children>
+        <element xmi:type="uml:Lifeline" href="SekvencijalniDijagram.uml#_e29n0Ko1Eey4SrfOF3FWAg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e3AEEao1Eey4SrfOF3FWAg" x="494" y="10" width="141" height="842"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_heDl4Ko1Eey4SrfOF3FWAg" type="Lifeline_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_heDl4qo1Eey4SrfOF3FWAg" type="Lifeline_NameLabel"/>
+        <element xmi:type="uml:Lifeline" href="SekvencijalniDijagram.uml#_heBJoKo1Eey4SrfOF3FWAg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_heDl4ao1Eey4SrfOF3FWAg" x="754" y="10" width="201" height="842"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_m7hXUKo5Eey4SrfOF3FWAg" type="Comment_Shape">
+        <children xmi:type="notation:DecorationNode" xmi:id="_m7hXUqo5Eey4SrfOF3FWAg" type="Comment_BodyLabel"/>
+        <element xmi:type="uml:Comment" href="SekvencijalniDijagram.uml#_m7ds8Ko5Eey4SrfOF3FWAg"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_m7hXUao5Eey4SrfOF3FWAg" x="94" y="551" width="781" height="61"/>
+      </children>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zBHf5KooEey4SrfOF3FWAg"/>
+    </children>
+    <element xmi:type="uml:Interaction" href="SekvencijalniDijagram.uml#_zAt3QKooEey4SrfOF3FWAg"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zBHf5aooEey4SrfOF3FWAg"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_zBHf5qooEey4SrfOF3FWAg" name="diagram_compatibility_version" stringValue="1.4.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_zBHf56ooEey4SrfOF3FWAg"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_zBHf6KooEey4SrfOF3FWAg" diagramKindId="org.eclipse.papyrus.uml.diagram.sequence">
+    <owner xmi:type="uml:Model" href="SekvencijalniDijagram.uml#_y_nEAKooEey4SrfOF3FWAg"/>
+  </styles>
+  <element xmi:type="uml:Interaction" href="SekvencijalniDijagram.uml#_zAt3QKooEey4SrfOF3FWAg"/>
+  <edges xmi:type="notation:Edge" xmi:id="_RAIpoKovEey4SrfOF3FWAg" type="Comment_AnnotatedElementEdge">
+    <styles xmi:type="notation:RoutingStyle" xmi:id="_RAIpoaovEey4SrfOF3FWAg"/>
+    <styles xmi:type="notation:FontStyle" xmi:id="_RAIpoqovEey4SrfOF3FWAg"/>
+    <styles xmi:type="notation:LineStyle" xmi:id="_RAIppKovEey4SrfOF3FWAg"/>
+    <element xsi:nil="true"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_RAIpo6ovEey4SrfOF3FWAg" points="[0, 0, 0, 0]$[0, 0, 0, 0]"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_kf6F8Ko4Eey4SrfOF3FWAg" type="Message_AsynchEdge" source="_cIcMEKo1Eey4SrfOF3FWAg" target="_cIcMEKo1Eey4SrfOF3FWAg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kf6F86o4Eey4SrfOF3FWAg" type="Message_AsynchNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kf6F9Ko4Eey4SrfOF3FWAg" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_kf6F9ao4Eey4SrfOF3FWAg" type="Message_AsynchStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_kf6F9qo4Eey4SrfOF3FWAg" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_kf6F8ao4Eey4SrfOF3FWAg"/>
+    <element xmi:type="uml:Message" href="SekvencijalniDijagram.uml#_kfxjEKo4Eey4SrfOF3FWAg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_kf6F8qo4Eey4SrfOF3FWAg" points="[10, 0, 10, -100]$[0, 100, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kgIvcKo4Eey4SrfOF3FWAg" id="(0.5,0.167458432304038)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_kgJWgKo4Eey4SrfOF3FWAg" id="(0.5,0.2862232779097387)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_xLpYwKo4Eey4SrfOF3FWAg" type="Message_SynchEdge" source="_e3AEEKo1Eey4SrfOF3FWAg" target="_e3AEEKo1Eey4SrfOF3FWAg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_xLpYw6o4Eey4SrfOF3FWAg" type="Message_SynchNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xLpYxKo4Eey4SrfOF3FWAg" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_xLpYxao4Eey4SrfOF3FWAg" type="Message_SynchStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_xLpYxqo4Eey4SrfOF3FWAg" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_xLpYwao4Eey4SrfOF3FWAg"/>
+    <element xmi:type="uml:Message" href="SekvencijalniDijagram.uml#_xLhc8Ko4Eey4SrfOF3FWAg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_xLpYwqo4Eey4SrfOF3FWAg" points="[10, 0, 10, -100]$[0, 100, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xL0X4Ko4Eey4SrfOF3FWAg" id="(0.5,0.40498812351543945)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_xL0-8Ko4Eey4SrfOF3FWAg" id="(0.5,0.5237529691211401)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_3-AdYKo4Eey4SrfOF3FWAg" type="Message_AsynchEdge" source="_cIcMEKo1Eey4SrfOF3FWAg" target="_e3AEEKo1Eey4SrfOF3FWAg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_3-AdY6o4Eey4SrfOF3FWAg" type="Message_AsynchNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3-AdZKo4Eey4SrfOF3FWAg" x="1" y="-13"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_3-AdZao4Eey4SrfOF3FWAg" type="Message_AsynchStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_3-AdZqo4Eey4SrfOF3FWAg" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_3-AdYao4Eey4SrfOF3FWAg"/>
+    <element xmi:type="uml:Message" href="SekvencijalniDijagram.uml#_397k4Ko4Eey4SrfOF3FWAg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_3-AdYqo4Eey4SrfOF3FWAg" points="[0, 0, -430, 0]$[430, 0, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3-PG4Ko4Eey4SrfOF3FWAg" id="(0.5,0.333729216152019)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_3-Pt8Ko4Eey4SrfOF3FWAg" id="(0.5,0.333729216152019)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_uLbTkKo5Eey4SrfOF3FWAg" type="Message_AsynchEdge" source="_e3AEEKo1Eey4SrfOF3FWAg" target="_cIcMEKo1Eey4SrfOF3FWAg">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uLbTk6o5Eey4SrfOF3FWAg" type="Message_AsynchNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uLbTlKo5Eey4SrfOF3FWAg" x="81" y="-30"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uLbTlao5Eey4SrfOF3FWAg" type="Message_AsynchStereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uLbTlqo5Eey4SrfOF3FWAg" x="1" y="-33"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_uLbTkao5Eey4SrfOF3FWAg"/>
+    <element xmi:type="uml:Message" href="SekvencijalniDijagram.uml#_uJbIcKo5Eey4SrfOF3FWAg"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uLbTkqo5Eey4SrfOF3FWAg" points="[0, 12, 620, 0]$[-620, 12, 0, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uO-94Ko5Eey4SrfOF3FWAg" id="(0.5,0.8800475059382423)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uO-94ao5Eey4SrfOF3FWAg" id="(0.5,0.8800475059382423)"/>
+  </edges>
+</notation:Diagram>
